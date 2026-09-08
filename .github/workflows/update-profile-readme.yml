@@ -2,7 +2,7 @@ name: Update Org Profile README
 
 on:
   schedule:
-    # Every 3 hours — pulls the latest public repo list, stars, forks & languages
+    # Every 3 hours: pull the latest public repo list, stars, forks & languages
     - cron: "0 */3 * * *"
   workflow_dispatch:
 

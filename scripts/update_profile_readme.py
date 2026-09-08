@@ -112,24 +112,32 @@ def build_stats(org, repos):
 def build_repos(repos):
     rows = []
     for r in repos:
-        desc = (r.get("description") or "—").replace("|", "/").replace("\n", " ").strip()
+        desc = (r.get("description") or "No description yet.").replace("|", "/").replace("\n", " ").strip()
         if len(desc) > 110:
             desc = desc[:107] + "…"
+        topics = r.get("topics") or []
+        if topics:
+            tags = " ".join(
+                f"![](https://img.shields.io/badge/%23{esc(t)}-24292f?style=flat-square&labelColor=1c1e26)"
+                for t in topics[:4]
+            )
+            desc += f"<br>{tags}"
         lang = r.get("language")
         if lang:
             color = LANGUAGE_COLORS.get(lang, FALLBACK_COLOR)
             lang_cell = f"![](https://img.shields.io/badge/{esc(lang)}-{color}?style=flat-square&labelColor=1c1e26)"
         else:
-            lang_cell = "—"
+            lang_cell = "n/a"
         stars = f'[![Stars](https://img.shields.io/github/stars/{ORG}/{r["name"]}?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)]({r["html_url"]}/stargazers)'
         forks = f'[![Forks](https://img.shields.io/github/forks/{ORG}/{r["name"]}?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)]({r["html_url"]}/forks)'
+        activity = f'![](https://img.shields.io/github/last-commit/{ORG}/{r["name"]}?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043)'
         archived = " 📦`archived`" if r.get("archived") else ""
         rows.append(
-            f'| 🗂️ [**{r["name"]}**]({r["html_url"]}){archived} | {desc} | {lang_cell} | {stars} | {forks} |'
+            f'| 🗂️ [**{r["name"]}**]({r["html_url"]}){archived} | {desc} | {lang_cell} | {stars} | {forks} | {activity} |'
         )
     return (
-        "| Repository | About | Language | Stars | Forks |\n"
-        "|:---|:---|:---:|:---:|:---:|\n" + "\n".join(rows)
+        "| Repository | About | Language | Stars | Forks | Last Commit |\n"
+        "|:---|:---|:---:|:---:|:---:|:---:|\n" + "\n".join(rows)
     )
 
 
@@ -172,6 +180,25 @@ def build_languages(repos):
     return f"Language share across all public repos, by bytes of code:\n\n{bar}"
 
 
+def build_history(repos, limit=8):
+    top = [r for r in repos if r["stargazers_count"] > 0][:limit] or repos[:limit]
+    names = ",".join(f"{ORG}/{r['name']}" for r in top)
+
+    def img(url, theme):
+        return f'<img src="{url}&theme={theme}" alt="Star history graph">'
+
+    svg = f"https://api.star-history.com/svg?repos={names}&type=Date"
+    return (
+        "<picture>\n"
+        f'  <source media="(prefers-color-scheme: dark)" srcset="{svg}&theme=dark">\n'
+        f'  <source media="(prefers-color-scheme: light)" srcset="{svg}&theme=light">\n'
+        f'  {img(svg, "light")}\n'
+        "</picture>\n\n"
+        "<sub>📈 Graph by [star-history.com](https://star-history.com), rendered live for the top repos. "
+        "It updates as visitors view this page, so new stars show up instantly.</sub>"
+    )
+
+
 def build_meta():
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     return (
@@ -185,6 +212,7 @@ SECTIONS = {
     "repos": lambda: build_repos(load_repos()),
     "cards": lambda: build_cards(load_repos()),
     "languages": lambda: build_languages(load_repos()),
+    "history": lambda: build_history(load_repos()),
     "meta": build_meta,
 }
 
