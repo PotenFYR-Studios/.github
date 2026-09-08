@@ -3,7 +3,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:ec4899,100:f97316&height=220&section=header&text=PotenFYR%20Studios&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Games%20%C2%B7%20Tools%20%C2%B7%20Eggs%20%C2%B7%20Open%20Source&descSize=20&descAlignY=55&animation=twinkling" width="100%" alt="PotenFYR Studios banner"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code:wght@600&size=24&pause=1200&color=8B5CF6&center=true&vCenter=true&width=700&lines=We+ship+games%2C+plugins+%26+platforms;One+jump+launches+the+whole+server+%F0%9F%9A%80;Eggs+for+every+panel.+Every+database.+Every+language.;Powered+by+community+%2B+caffeine)](https://github.com/PotenFYR-Studios)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=800&lines=We+ship+games%2C+plugins+%26+platforms;One+jump+launches+the+whole+server+%F0%9F%9A%80;Eggs+for+every+panel.+Every+database.+Every+language.;Powered+by+community+%2B+caffeine)](https://github.com/PotenFYR-Studios)
 
 [![Website](https://img.shields.io/badge/Website-potenfyr.in-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1c1e26)](https://potenfyr.in)
 [![Discord](https://img.shields.io/badge/Discord-Join%20us-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1c1e26)](https://discord.com/invite/zUaN2FPBec)
