@@ -35,6 +35,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(readme): auto-refresh org stats & repos [skip ci]"
-          file_pattern: profile/README.md
+          file_pattern: "profile/**"
           commit_user_name: potenfyr-bot
           commit_user_email: actions@github.com
