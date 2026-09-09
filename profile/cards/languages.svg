@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="170" viewBox="0 0 800 170" fill="none">
+  <defs>
+    <linearGradient id="grad-lang_dist" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <clipPath id="card-clip-lang_dist">
+      <rect x="0" y="0" width="800" height="170" rx="10" />
+    </clipPath>
+    <clipPath id="bar-clip">
+      <rect x="25" y="52" width="750" height="12" rx="6" />
+    </clipPath>
+    <style>
+      .card-bg { fill: #1a1b26; stroke: #2f334d; stroke-width: 1px; }
+      .card-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #7aa2f7; }
+      .card-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #787c99; font-weight: 500; }
+      .lang-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12.5px; font-weight: 600; fill: #cdd6f4; }
+      .lang-pct { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #7aa2f7; }
+      .lang-size { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; fill: #6c7086; }
+      @media (prefers-color-scheme: light) {
+        .card-bg { fill: #f7f8fc; stroke: #e1e4ea; }
+        .card-title { fill: #2563eb; }
+        .card-sub { fill: #6b7280; }
+        .lang-name { fill: #1f2328; }
+        .lang-pct { fill: #2563eb; }
+        .lang-size { fill: #6b7280; }
+      }
+    </style>
+  </defs>
+
+  <!-- Card Background with Gradient Accent -->
+  <g clip-path="url(#card-clip-lang_dist)">
+    <rect class="card-bg" x="0.5" y="0.5" width="799" height="169" rx="10" />
+    <rect x="0" y="0" width="800" height="4" fill="url(#grad-lang_dist)" />
+  </g>
+
+  <!-- Header: Icon, Title & Meta -->
+  <g transform="translate(25, 20)">
+    <path fill="#7aa2f7" d="M4.72 3.22a.75.75 0 0 1 1.06 1.06L2.06 8l3.72 3.72a.75.75 0 1 1-1.06 1.06L.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25Zm6.56 0a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L13.94 8l-3.72-3.72a.75.75 0 0 1 0-1.06Z" />
+    <text class="card-title" x="24" y="11">Language Share Across Repositories</text>
+  </g>
+  <text class="card-sub" x="775" y="31" text-anchor="end">2.4 MB across 9 public repos</text>
+
+  <!-- Progress Bar Background & Segments -->
+  <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
+  <g clip-path="url(#bar-clip)">
+    <rect x="25.00" y="52" width="391.98" height="12" fill="#b07219"><title>Java: 52.3%</title></rect>
+    <rect x="416.98" y="52" width="284.88" height="12" fill="#89e051"><title>Shell: 38.0%</title></rect>
+    <rect x="701.86" y="52" width="50.68" height="12" fill="#3178c6"><title>TypeScript: 6.8%</title></rect>
+    <rect x="752.54" y="52" width="8.27" height="12" fill="#e34c26"><title>HTML: 1.1%</title></rect>
+    <rect x="760.81" y="52" width="7.67" height="12" fill="#384d54"><title>Dockerfile: 1.0%</title></rect>
+    <rect x="768.48" y="52" width="3.11" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
+    <rect x="771.59" y="52" width="3.00" height="12" fill="#012456"><title>PowerShell: 0.2%</title></rect>
+    <rect x="774.59" y="52" width="3.00" height="12" fill="#f1e05a"><title>JavaScript: 0.2%</title></rect>
+    <rect x="777.59" y="52" width="3.00" height="12" fill="#663399"><title>CSS: 0.1%</title></rect>
+  </g>
+
+  <!-- Legend -->
+  <g>
+    <circle cx="30" cy="82" r="4.5" fill="#b07219" />
+    <text x="41" y="86">
+      <tspan class="lang-name">Java</tspan>
+      <tspan class="lang-pct" dx="6">52.3%</tspan>
+      <tspan class="lang-size" dx="6">(1.3 MB)</tspan>
+    </text>
+    <circle cx="285" cy="82" r="4.5" fill="#89e051" />
+    <text x="296" y="86">
+      <tspan class="lang-name">Shell</tspan>
+      <tspan class="lang-pct" dx="6">38.0%</tspan>
+      <tspan class="lang-size" dx="6">(936.5 KB)</tspan>
+    </text>
+    <circle cx="540" cy="82" r="4.5" fill="#3178c6" />
+    <text x="551" y="86">
+      <tspan class="lang-name">TypeScript</tspan>
+      <tspan class="lang-pct" dx="6">6.8%</tspan>
+      <tspan class="lang-size" dx="6">(166.6 KB)</tspan>
+    </text>
+    <circle cx="30" cy="106" r="4.5" fill="#e34c26" />
+    <text x="41" y="110">
+      <tspan class="lang-name">HTML</tspan>
+      <tspan class="lang-pct" dx="6">1.1%</tspan>
+      <tspan class="lang-size" dx="6">(27.2 KB)</tspan>
+    </text>
+    <circle cx="285" cy="106" r="4.5" fill="#384d54" />
+    <text x="296" y="110">
+      <tspan class="lang-name">Dockerfile</tspan>
+      <tspan class="lang-pct" dx="6">1.0%</tspan>
+      <tspan class="lang-size" dx="6">(25.2 KB)</tspan>
+    </text>
+    <circle cx="540" cy="106" r="4.5" fill="#3572a5" />
+    <text x="551" y="110">
+      <tspan class="lang-name">Python</tspan>
+      <tspan class="lang-pct" dx="6">0.4%</tspan>
+      <tspan class="lang-size" dx="6">(10.2 KB)</tspan>
+    </text>
+    <circle cx="30" cy="130" r="4.5" fill="#012456" />
+    <text x="41" y="134">
+      <tspan class="lang-name">PowerShell</tspan>
+      <tspan class="lang-pct" dx="6">0.2%</tspan>
+      <tspan class="lang-size" dx="6">(5.0 KB)</tspan>
+    </text>
+    <circle cx="285" cy="130" r="4.5" fill="#f1e05a" />
+    <text x="296" y="134">
+      <tspan class="lang-name">JavaScript</tspan>
+      <tspan class="lang-pct" dx="6">0.2%</tspan>
+      <tspan class="lang-size" dx="6">(3.8 KB)</tspan>
+    </text>
+    <circle cx="540" cy="130" r="4.5" fill="#663399" />
+    <text x="551" y="134">
+      <tspan class="lang-name">CSS</tspan>
+      <tspan class="lang-pct" dx="6">0.1%</tspan>
+      <tspan class="lang-size" dx="6">(2.4 KB)</tspan>
+    </text>
+  </g>
+</svg>

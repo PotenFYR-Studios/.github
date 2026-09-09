@@ -266,22 +266,164 @@ def generate_card_svg(repo):
     return svg
 
 
-def build_cards(repos, limit=6):
+def fmt_bytes(b):
+    if b >= 1024 * 1024:
+        return f"{b / (1024 * 1024):.1f} MB"
+    if b >= 1024:
+        return f"{b / 1024:.1f} KB"
+    return f"{b} B"
+
+
+def build_cards(repos, limit=None):
     os.makedirs(CARDS_DIR, exist_ok=True)
-    top = sorted(repos, key=lambda r: (r["stargazers_count"], r["forks_count"], r["name"]), reverse=True)[:limit]
+    card_repos = sorted(repos, key=lambda r: (r["stargazers_count"], r["forks_count"], r["name"]), reverse=True)
+    if limit:
+        card_repos = card_repos[:limit]
+
+    generated_files = set()
     cells = []
-    for r in top:
+    for r in card_repos:
         svg_content = generate_card_svg(r)
-        svg_file = os.path.join(CARDS_DIR, f"{r['name']}.svg")
+        filename = f"{r['name']}.svg"
+        svg_file = os.path.join(CARDS_DIR, filename)
         with open(svg_file, "w", encoding="utf-8") as f:
             f.write(svg_content)
+        generated_files.add(filename)
         card_url = f"https://raw.githubusercontent.com/{ORG}/.github/main/profile/cards/{r['name']}.svg"
         cells.append(f'<a href="{r["html_url"]}"><img src="{card_url}" alt="{r["name"]}"></a>')
+
+    # Auto-cleanup stale repo SVGs in CARDS_DIR (protecting languages.svg)
+    for existing in os.listdir(CARDS_DIR):
+        if existing.endswith(".svg") and existing != "languages.svg":
+            if existing not in generated_files:
+                try:
+                    os.remove(os.path.join(CARDS_DIR, existing))
+                except OSError:
+                    pass
+
     rows = []
     for i in range(0, len(cells), 2):
         row = cells[i : i + 2]
-        rows.append("| " + " | ".join(row) + (" |  |" if len(row) == 1 else " |"))
-    return "| 🌟 Featured | 🌟 Featured |\n|:---:|:---:|\n" + "\n".join(rows)
+        if len(row) == 1:
+            rows.append(f"| {row[0]} | |")
+        else:
+            rows.append(f"| {row[0]} | {row[1]} |")
+
+    return "| 🌟 Repositories | 🌟 Repositories |\n|:---:|:---:|\n" + "\n".join(rows)
+
+
+def generate_languages_svg(totals, total_bytes, num_repos):
+    import math
+
+    parts = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)
+    clean_id = "lang_dist"
+
+    bar_w = 750
+    bar_x = 25
+    bar_y = 52
+    bar_h = 12
+
+    segments = []
+    cur_x = bar_x
+    for lang, size in parts:
+        pct = size / total_bytes
+        w = max(3.0, pct * bar_w) if size > 0 else 0
+        color = f"#{LANGUAGE_COLORS.get(lang, FALLBACK_COLOR)}"
+        escaped_lang = saxutils.escape(lang)
+        pct_label = f"{round(pct * 100, 1)}%"
+        segments.append(
+            f'<rect x="{cur_x:.2f}" y="{bar_y}" width="{w:.2f}" height="{bar_h}" fill="{color}">'
+            f'<title>{escaped_lang}: {pct_label}</title></rect>'
+        )
+        cur_x += w
+
+    cols = 3
+    row_h = 24
+    start_y = 86
+    num_rows = math.ceil(len(parts) / cols)
+    height = start_y + num_rows * row_h + 12
+
+    legend_items = []
+    for idx, (lang, size) in enumerate(parts):
+        col = idx % cols
+        row = idx // cols
+        col_x = 25 + col * 255
+        row_y = start_y + row * row_h
+        color = f"#{LANGUAGE_COLORS.get(lang, FALLBACK_COLOR)}"
+        pct_val = round(size / total_bytes * 100, 1)
+        pct_str = f"{pct_val}%"
+        size_str = fmt_bytes(size)
+        escaped_lang = saxutils.escape(lang)
+        legend_items.append(
+            f'    <circle cx="{col_x + 5}" cy="{row_y - 4}" r="4.5" fill="{color}" />\n'
+            f'    <text x="{col_x + 16}" y="{row_y}">\n'
+            f'      <tspan class="lang-name">{escaped_lang}</tspan>\n'
+            f'      <tspan class="lang-pct" dx="6">{pct_str}</tspan>\n'
+            f'      <tspan class="lang-size" dx="6">({size_str})</tspan>\n'
+            f'    </text>'
+        )
+
+    legend_svg = "\n".join(legend_items)
+    segments_svg = "\n    ".join(segments)
+    total_str = fmt_bytes(total_bytes)
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="800" height="{height}" viewBox="0 0 800 {height}" fill="none">
+  <defs>
+    <linearGradient id="grad-{clean_id}" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+    <clipPath id="card-clip-{clean_id}">
+      <rect x="0" y="0" width="800" height="{height}" rx="10" />
+    </clipPath>
+    <clipPath id="bar-clip">
+      <rect x="25" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="6" />
+    </clipPath>
+    <style>
+      .card-bg {{ fill: #1a1b26; stroke: #2f334d; stroke-width: 1px; }}
+      .card-title {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #7aa2f7; }}
+      .card-sub {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #787c99; font-weight: 500; }}
+      .lang-name {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12.5px; font-weight: 600; fill: #cdd6f4; }}
+      .lang-pct {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #7aa2f7; }}
+      .lang-size {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 11px; fill: #6c7086; }}
+      @media (prefers-color-scheme: light) {{
+        .card-bg {{ fill: #f7f8fc; stroke: #e1e4ea; }}
+        .card-title {{ fill: #2563eb; }}
+        .card-sub {{ fill: #6b7280; }}
+        .lang-name {{ fill: #1f2328; }}
+        .lang-pct {{ fill: #2563eb; }}
+        .lang-size {{ fill: #6b7280; }}
+      }}
+    </style>
+  </defs>
+
+  <!-- Card Background with Gradient Accent -->
+  <g clip-path="url(#card-clip-{clean_id})">
+    <rect class="card-bg" x="0.5" y="0.5" width="799" height="{height - 1}" rx="10" />
+    <rect x="0" y="0" width="800" height="4" fill="url(#grad-{clean_id})" />
+  </g>
+
+  <!-- Header: Icon, Title & Meta -->
+  <g transform="translate(25, 20)">
+    <path fill="#7aa2f7" d="M4.72 3.22a.75.75 0 0 1 1.06 1.06L2.06 8l3.72 3.72a.75.75 0 1 1-1.06 1.06L.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25Zm6.56 0a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L13.94 8l-3.72-3.72a.75.75 0 0 1 0-1.06Z" />
+    <text class="card-title" x="24" y="11">Language Share Across Repositories</text>
+  </g>
+  <text class="card-sub" x="775" y="31" text-anchor="end">{total_str} across {num_repos} public repos</text>
+
+  <!-- Progress Bar Background & Segments -->
+  <rect x="25" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="6" fill="#24283b" />
+  <g clip-path="url(#bar-clip)">
+    {segments_svg}
+  </g>
+
+  <!-- Legend -->
+  <g>
+{legend_svg}
+  </g>
+</svg>
+"""
+    return svg
 
 
 def build_languages(repos):
@@ -295,6 +437,13 @@ def build_languages(repos):
     total_bytes = sum(totals.values())
     if not total_bytes:
         return "_No language data available._"
+
+    os.makedirs(CARDS_DIR, exist_ok=True)
+    svg_content = generate_languages_svg(totals, total_bytes, len(repos))
+    svg_file = os.path.join(CARDS_DIR, "languages.svg")
+    with open(svg_file, "w", encoding="utf-8") as f:
+        f.write(svg_content)
+
     parts = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)
     badges = []
     for lang, size in parts:
@@ -306,8 +455,17 @@ def build_languages(repos):
             f'<img src="https://img.shields.io/badge/{esc(lang)}-{esc(f"{pct}%")}-{color}'
             f'?style=flat-square&labelColor=1c1e26" alt="{lang} {pct}%">'
         )
-    bar = "\n".join(badges)
-    return f"Language share across all public repos, by bytes of code:\n\n{bar}"
+    inline_badges = " &nbsp; ".join(badges)
+    card_url = f"https://raw.githubusercontent.com/{ORG}/.github/main/profile/cards/languages.svg"
+
+    return (
+        f'<div align="center">\n'
+        f'  <img src="{card_url}" alt="Language Distribution" width="100%">\n'
+        f'</div>\n\n'
+        f'<p align="center">\n'
+        f'  {inline_badges}\n'
+        f'</p>'
+    )
 
 
 def build_history(repos, limit=8):
@@ -333,7 +491,7 @@ def build_meta():
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     return (
         f"<sub>⚡ Last refreshed **{now}** · Data source: GitHub REST API (public repos only) · "
-        f"Auto-updated every 3 hours by [GitHub Actions](https://github.com/{ORG}/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>"
+        f"Auto-synced continuously by [GitHub Actions](https://github.com/{ORG}/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>"
     )
 
 

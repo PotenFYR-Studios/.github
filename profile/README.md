@@ -19,7 +19,7 @@
 
 [![Auto Refresh](https://img.shields.io/github/actions/workflow/status/PotenFYR-Studios/.github/update-profile-readme.yml?style=flat-square&logo=githubactions&label=Auto%20Refresh&labelColor=1c1e26&color=2ea043)](https://github.com/PotenFYR-Studios/.github/actions/workflows/update-profile-readme.yml)
 
-> 💡 Everything on this page is **live**: the repo list, stars, forks and language mix below are pulled from the GitHub API and auto-refresh every 3 hours: new public repos appear here automatically and removed ones disappear. Private repos are never shown.
+> 💡 Everything on this page is **live & auto-synced**: repository cards, statistics, forks, stars, and language distribution are generated directly from the GitHub API and automatically synced hourly and on repository updates. New public repos appear here automatically and removed ones disappear. Private repos are never shown.
 
 <!-- POTENFYR:START:stats -->
 | Public Repos | Total Stars | Total Forks | Open Issues | Public Members |
@@ -54,28 +54,26 @@ Sorted by stars, straight from the API. Public repos only.
 ### 🖼️ Featured Cards
 
 <!-- POTENFYR:START:cards -->
-| 🌟 Featured | 🌟 Featured |
+| 🌟 Repositories | 🌟 Repositories |
 |:---:|:---:|
 | <a href="https://github.com/PotenFYR-Studios/AuthCore"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/AuthCore.svg" alt="AuthCore"></a> | <a href="https://github.com/PotenFYR-Studios/statfyr"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/statfyr.svg" alt="statfyr"></a> |
 | <a href="https://github.com/PotenFYR-Studios/Prog-Language-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Prog-Language-Eggs.svg" alt="Prog-Language-Eggs"></a> | <a href="https://github.com/PotenFYR-Studios/Minecraft-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Minecraft-Eggs.svg" alt="Minecraft-Eggs"></a> |
 | <a href="https://github.com/PotenFYR-Studios/Database-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Database-Eggs.svg" alt="Database-Eggs"></a> | <a href="https://github.com/PotenFYR-Studios/APICordon"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/APICordon.svg" alt="APICordon"></a> |
+| <a href="https://github.com/PotenFYR-Studios/ojaj"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/ojaj.svg" alt="ojaj"></a> | <a href="https://github.com/PotenFYR-Studios/EchoingDeaths"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/EchoingDeaths.svg" alt="EchoingDeaths"></a> |
+| <a href="https://github.com/PotenFYR-Studios/.web"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/.web.svg" alt=".web"></a> | |
 
 <!-- POTENFYR:END:cards -->
 
 ### 🌈 Language Mix
 
 <!-- POTENFYR:START:languages -->
-Language share across all public repos, by bytes of code:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/languages.svg" alt="Language Distribution" width="100%">
+</div>
 
-<img src="https://img.shields.io/badge/Java-52.5%25-b07219?style=flat-square&labelColor=1c1e26" alt="Java 52.5%">
-<img src="https://img.shields.io/badge/Shell-38.1%25-89e051?style=flat-square&labelColor=1c1e26" alt="Shell 38.1%">
-<img src="https://img.shields.io/badge/TypeScript-6.7%25-3178c6?style=flat-square&labelColor=1c1e26" alt="TypeScript 6.7%">
-<img src="https://img.shields.io/badge/Dockerfile-1.0%25-384d54?style=flat-square&labelColor=1c1e26" alt="Dockerfile 1.0%">
-<img src="https://img.shields.io/badge/HTML-0.8%25-e34c26?style=flat-square&labelColor=1c1e26" alt="HTML 0.8%">
-<img src="https://img.shields.io/badge/Python-0.4%25-3572a5?style=flat-square&labelColor=1c1e26" alt="Python 0.4%">
-<img src="https://img.shields.io/badge/PowerShell-0.2%25-012456?style=flat-square&labelColor=1c1e26" alt="PowerShell 0.2%">
-<img src="https://img.shields.io/badge/JavaScript-0.2%25-f1e05a?style=flat-square&labelColor=1c1e26" alt="JavaScript 0.2%">
-<img src="https://img.shields.io/badge/CSS-0.1%25-663399?style=flat-square&labelColor=1c1e26" alt="CSS 0.1%">
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-52.3%25-b07219?style=flat-square&labelColor=1c1e26" alt="Java 52.3%"> &nbsp; <img src="https://img.shields.io/badge/Shell-38.0%25-89e051?style=flat-square&labelColor=1c1e26" alt="Shell 38.0%"> &nbsp; <img src="https://img.shields.io/badge/TypeScript-6.8%25-3178c6?style=flat-square&labelColor=1c1e26" alt="TypeScript 6.8%"> &nbsp; <img src="https://img.shields.io/badge/HTML-1.1%25-e34c26?style=flat-square&labelColor=1c1e26" alt="HTML 1.1%"> &nbsp; <img src="https://img.shields.io/badge/Dockerfile-1.0%25-384d54?style=flat-square&labelColor=1c1e26" alt="Dockerfile 1.0%"> &nbsp; <img src="https://img.shields.io/badge/Python-0.4%25-3572a5?style=flat-square&labelColor=1c1e26" alt="Python 0.4%"> &nbsp; <img src="https://img.shields.io/badge/PowerShell-0.2%25-012456?style=flat-square&labelColor=1c1e26" alt="PowerShell 0.2%"> &nbsp; <img src="https://img.shields.io/badge/JavaScript-0.2%25-f1e05a?style=flat-square&labelColor=1c1e26" alt="JavaScript 0.2%"> &nbsp; <img src="https://img.shields.io/badge/CSS-0.1%25-663399?style=flat-square&labelColor=1c1e26" alt="CSS 0.1%">
+</p>
 
 <!-- POTENFYR:END:languages -->
 
@@ -93,7 +91,7 @@ Language share across all public repos, by bytes of code:
 <!-- POTENFYR:END:history -->
 
 <!-- POTENFYR:START:meta -->
-<sub>⚡ Last refreshed **2026-09-09 16:20 UTC** · Data source: GitHub REST API (public repos only) · Auto-updated every 3 hours by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
+<sub>⚡ Last refreshed **2026-09-09 18:52 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
 
 <!-- POTENFYR:END:meta -->
 
@@ -123,7 +121,7 @@ Language share across all public repos, by bytes of code:
 - **[EchoingDeaths](https://github.com/PotenFYR-Studios/EchoingDeaths)**: Immersive death-based curses that echo to nearby players
 
 ### 🛍️ Commerce, Bots & Security
-- **[potenfyr-web](https://github.com/PotenFYR-Studios/potenfyr-web)**: Our official website
+- **[.web](https://github.com/PotenFYR-Studios/.web)**: Our official website
 - **Jericho Discord Bot**: Fast, customizable community management & entertainment · [Invite](https://top.gg/bot/1470079725106888817)
 - **[APICordon](https://github.com/PotenFYR-Studios/APICordon)**: GitHub-native API security layer that turns findings into precise PR feedback
 
