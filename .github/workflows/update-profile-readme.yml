@@ -2,9 +2,18 @@ name: Update Org Profile README
 
 on:
   schedule:
-    # Every 3 hours: pull the latest public repo list, stars, forks & languages
-    - cron: "0 */3 * * *"
+    # Hourly sync: keep repo list, cards, stars, forks & language mix constantly updated
+    - cron: "0 * * * *"
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "profile/README.md"
+      - "profile/cards/**"
   workflow_dispatch:
+  workflow_call:
+  repository_dispatch:
+    types: [repo-update, push, release, star, refresh-profile, ping]
 
 permissions:
   contents: write
