@@ -91,7 +91,7 @@ Sorted by stars, straight from the API. Public repos only.
 <!-- POTENFYR:END:history -->
 
 <!-- POTENFYR:START:meta -->
-<sub>⚡ Last refreshed **2026-09-09 18:52 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
+<sub>⚡ Last refreshed **2026-09-09 21:19 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
 
 <!-- POTENFYR:END:meta -->
 
