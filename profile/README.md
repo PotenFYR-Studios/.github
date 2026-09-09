@@ -67,11 +67,11 @@ Sorted by stars, straight from the API. Public repos only.
 <!-- POTENFYR:START:languages -->
 Language share across all public repos, by bytes of code:
 
-<img src="https://img.shields.io/badge/Java-54.7%25-b07219?style=flat-square&labelColor=1c1e26" alt="Java 54.7%">
-<img src="https://img.shields.io/badge/Shell-39.7%25-89e051?style=flat-square&labelColor=1c1e26" alt="Shell 39.7%">
-<img src="https://img.shields.io/badge/TypeScript-3.0%25-3178c6?style=flat-square&labelColor=1c1e26" alt="TypeScript 3.0%">
-<img src="https://img.shields.io/badge/Dockerfile-1.1%25-384d54?style=flat-square&labelColor=1c1e26" alt="Dockerfile 1.1%">
-<img src="https://img.shields.io/badge/HTML-0.6%25-e34c26?style=flat-square&labelColor=1c1e26" alt="HTML 0.6%">
+<img src="https://img.shields.io/badge/Java-52.6%25-b07219?style=flat-square&labelColor=1c1e26" alt="Java 52.6%">
+<img src="https://img.shields.io/badge/Shell-38.2%25-89e051?style=flat-square&labelColor=1c1e26" alt="Shell 38.2%">
+<img src="https://img.shields.io/badge/TypeScript-6.4%25-3178c6?style=flat-square&labelColor=1c1e26" alt="TypeScript 6.4%">
+<img src="https://img.shields.io/badge/Dockerfile-1.0%25-384d54?style=flat-square&labelColor=1c1e26" alt="Dockerfile 1.0%">
+<img src="https://img.shields.io/badge/HTML-0.8%25-e34c26?style=flat-square&labelColor=1c1e26" alt="HTML 0.8%">
 <img src="https://img.shields.io/badge/Python-0.4%25-3572a5?style=flat-square&labelColor=1c1e26" alt="Python 0.4%">
 <img src="https://img.shields.io/badge/PowerShell-0.2%25-012456?style=flat-square&labelColor=1c1e26" alt="PowerShell 0.2%">
 <img src="https://img.shields.io/badge/JavaScript-0.2%25-f1e05a?style=flat-square&labelColor=1c1e26" alt="JavaScript 0.2%">
@@ -93,7 +93,7 @@ Language share across all public repos, by bytes of code:
 <!-- POTENFYR:END:history -->
 
 <!-- POTENFYR:START:meta -->
-<sub>⚡ Last refreshed **2026-09-09 09:50 UTC** · Data source: GitHub REST API (public repos only) · Auto-updated every 3 hours by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
+<sub>⚡ Last refreshed **2026-09-09 11:04 UTC** · Data source: GitHub REST API (public repos only) · Auto-updated every 3 hours by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
 
 <!-- POTENFYR:END:meta -->
 
