@@ -24,7 +24,7 @@
 <!-- POTENFYR:START:stats -->
 | Public Repos | Total Stars | Total Forks | Open Issues | Public Members |
 |:---:|:---:|:---:|:---:|:---:|
-| [<img src="https://img.shields.io/badge/📦-12-2ea043?style=flat-square&labelColor=1c1e26" alt="📦 12">](https://github.com/orgs/PotenFYR-Studios/repositories) | [<img src="https://img.shields.io/badge/⭐-14-eac54f?style=flat-square&labelColor=1c1e26" alt="⭐ 14">](https://github.com/orgs/PotenFYR-Studios/repositories?type=all&sort=stargazers) | [<img src="https://img.shields.io/badge/🍴-2-0078d7?style=flat-square&labelColor=1c1e26" alt="🍴 2">](https://github.com/orgs/PotenFYR-Studios/repositories?type=fork) | [<img src="https://img.shields.io/badge/🛠️-0-db61a2?style=flat-square&labelColor=1c1e26" alt="🛠️ 0">](https://github.com/search?q=org%3APotenFYR-Studios+is%3Aopen) | [<img src="https://img.shields.io/badge/👥-2-8957e5?style=flat-square&labelColor=1c1e26" alt="👥 2">](https://github.com/orgs/PotenFYR-Studios/people) |
+| [<img src="https://img.shields.io/badge/📦-12-2ea043?style=flat-square&labelColor=1c1e26" alt="📦 12">](https://github.com/orgs/PotenFYR-Studios/repositories) | [<img src="https://img.shields.io/badge/⭐-14-eac54f?style=flat-square&labelColor=1c1e26" alt="⭐ 14">](https://github.com/orgs/PotenFYR-Studios/repositories?type=all&sort=stargazers) | [<img src="https://img.shields.io/badge/🍴-2-0078d7?style=flat-square&labelColor=1c1e26" alt="🍴 2">](https://github.com/orgs/PotenFYR-Studios/repositories?type=fork) | [<img src="https://img.shields.io/badge/🛠️-0-db61a2?style=flat-square&labelColor=1c1e26" alt="🛠️ 0">](https://github.com/search?q=org%3APotenFYR-Studios+is%3Aopen) | [<img src="https://img.shields.io/badge/👥-1-8957e5?style=flat-square&labelColor=1c1e26" alt="👥 1">](https://github.com/orgs/PotenFYR-Studios/people) |
 
 > 🏠 Based in India · On GitHub since 2026 · Everything below is pulled straight from the GitHub API and refreshes itself.
 
@@ -91,7 +91,7 @@ Sorted by stars, straight from the API. Public repos only.
 <!-- POTENFYR:END:history -->
 
 <!-- POTENFYR:START:meta -->
-<sub>⚡ Last refreshed **2026-09-10 19:21 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
+<sub>⚡ Last refreshed **2026-09-10 19:23 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
 
 <!-- POTENFYR:END:meta -->
 
