@@ -161,6 +161,12 @@ We welcome contributions from the community: every star, issue and PR makes the 
 
 ---
 
+## 📜 Licensing
+
+Our public repositories are licensed under the **Apache License 2.0 with the Commons Clause** - you are free to fork, modify, and use them for free, including commercial use and building products or services around them. The software itself may **not** be sold as a product. See each repository's [LICENSE](https://github.com/PotenFYR-Studios/AuthCore/blob/main/LICENSE) for details. Private repositories remain proprietary and confidential - all rights reserved by PotenFYR Studios.
+
+---
+
 ## 📫 Connect With Us
 
 <div align="center">
