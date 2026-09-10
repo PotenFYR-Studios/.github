@@ -468,21 +468,17 @@ def build_languages(repos):
     )
 
 
-def build_history(repos, limit=8):
-    top = [r for r in repos if r["stargazers_count"] > 0][:limit] or repos[:limit]
-    names = ",".join(f"{ORG.lower()}/{r['name'].lower()}" for r in top)
-
-    def img(url, theme):
-        return f'<img src="{url}&theme={theme}" alt="Star history graph">'
-
-    svg = f"https://api.star-history.com/svg?repos={names}&type=Date"
+def build_history(repos):
+    # Every public repo in the graph, always rendered with a black background
+    # (single dark-theme image - no <picture> switching, no star-count limit).
+    ordered = sorted(
+        repos, key=lambda r: (r["stargazers_count"], r["name"]), reverse=True
+    )
+    names = ",".join(f"{ORG.lower()}/{r['name'].lower()}" for r in ordered)
+    url = f"https://api.star-history.com/svg?repos={names}&type=Date&theme=dark"
     return (
-        "<picture>\n"
-        f'  <source media="(prefers-color-scheme: dark)" srcset="{svg}&theme=dark">\n'
-        f'  <source media="(prefers-color-scheme: light)" srcset="{svg}&theme=light">\n'
-        f'  {img(svg, "light")}\n'
-        "</picture>\n\n"
-        "<sub>📈 Graph by [star-history.com](https://star-history.com), rendered live for the top repos. "
+        f'<img src="{url}" alt="Star history graph for all {ORG} public repositories">\n\n'
+        "<sub>📈 Graph by [star-history.com](https://star-history.com), rendered live for every public repo. "
         "It updates as visitors view this page, so new stars show up instantly.</sub>"
     )
 
@@ -511,7 +507,11 @@ def load_repos():
     global _repos_cache
     if _repos_cache is None:
         repos = paginate(f"/orgs/{ORG}/repos?sort=updated")
-        repos = [r for r in repos if not r.get("fork") and r["name"] != ".github"]
+        repos = [
+            r
+            for r in repos
+            if not r.get("fork") and not r.get("private") and r["name"] != ".github"
+        ]
         repos.sort(key=lambda r: (r["stargazers_count"], r["pushed_at"]), reverse=True)
         _repos_cache = repos
     return _repos_cache

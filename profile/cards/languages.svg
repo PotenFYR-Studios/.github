@@ -45,10 +45,10 @@
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="325.72" height="12" fill="#b07219"><title>Java: 43.4%</title></rect>
-    <rect x="350.72" y="52" width="273.88" height="12" fill="#89e051"><title>Shell: 36.5%</title></rect>
-    <rect x="624.60" y="52" width="119.32" height="12" fill="#3178c6"><title>TypeScript: 15.9%</title></rect>
-    <rect x="743.91" y="52" width="9.06" height="12" fill="#e34c26"><title>HTML: 1.2%</title></rect>
+    <rect x="25.00" y="52" width="325.69" height="12" fill="#b07219"><title>Java: 43.4%</title></rect>
+    <rect x="350.69" y="52" width="273.85" height="12" fill="#89e051"><title>Shell: 36.5%</title></rect>
+    <rect x="624.53" y="52" width="119.39" height="12" fill="#3178c6"><title>TypeScript: 15.9%</title></rect>
+    <rect x="743.92" y="52" width="9.05" height="12" fill="#e34c26"><title>HTML: 1.2%</title></rect>
     <rect x="752.97" y="52" width="8.21" height="12" fill="#3572a5"><title>Python: 1.1%</title></rect>
     <rect x="761.18" y="52" width="7.12" height="12" fill="#384d54"><title>Dockerfile: 0.9%</title></rect>
     <rect x="768.30" y="52" width="3.55" height="12" fill="#f1e05a"><title>JavaScript: 0.5%</title></rect>
@@ -74,7 +74,7 @@
     <text x="551" y="86">
       <tspan class="lang-name">TypeScript</tspan>
       <tspan class="lang-pct" dx="6">15.9%</tspan>
-      <tspan class="lang-size" dx="6">(472.0 KB)</tspan>
+      <tspan class="lang-size" dx="6">(472.3 KB)</tspan>
     </text>
     <circle cx="30" cy="106" r="4.5" fill="#e34c26" />
     <text x="41" y="110">

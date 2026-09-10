@@ -7,9 +7,6 @@ on:
   push:
     branches:
       - main
-    paths-ignore:
-      - "profile/README.md"
-      - "profile/cards/**"
   workflow_dispatch:
   workflow_call:
   repository_dispatch:
