@@ -87,14 +87,14 @@ Sorted by stars, straight from the API. Public repos only.
 ### 📈 Star History
 
 <!-- POTENFYR:START:history -->
-<img src="https://api.star-history.com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/statfyr,potenfyr-studios/discord-botlists,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web,potenfyr-studios/ojaj&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
+<img src="https://api.star-history.com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/statfyr,potenfyr-studios/discord-botlists,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
 
 <sub>📈 Graph by [star-history.com](https://star-history.com), rendered live for every public repo. It updates as visitors view this page, so new stars show up instantly.</sub>
 
 <!-- POTENFYR:END:history -->
 
 <!-- POTENFYR:START:meta -->
-<sub>⚡ Last refreshed **2026-09-12 17:15 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
+<sub>⚡ Last refreshed **2026-09-12 17:17 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
 
 <!-- POTENFYR:END:meta -->
 
