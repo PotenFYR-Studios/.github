@@ -45,14 +45,14 @@
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="299.94" height="12" fill="#b07219"><title>Java: 40.0%</title></rect>
-    <rect x="324.94" y="52" width="256.07" height="12" fill="#89e051"><title>Shell: 34.1%</title></rect>
-    <rect x="581.01" y="52" width="102.28" height="12" fill="#3178c6"><title>TypeScript: 13.6%</title></rect>
-    <rect x="683.29" y="52" width="62.47" height="12" fill="#00add8"><title>Go: 8.3%</title></rect>
-    <rect x="745.76" y="52" width="8.66" height="12" fill="#e34c26"><title>HTML: 1.2%</title></rect>
-    <rect x="754.42" y="52" width="7.56" height="12" fill="#3572a5"><title>Python: 1.0%</title></rect>
-    <rect x="761.98" y="52" width="7.05" height="12" fill="#384d54"><title>Dockerfile: 0.9%</title></rect>
-    <rect x="769.04" y="52" width="3.17" height="12" fill="#f1e05a"><title>JavaScript: 0.4%</title></rect>
+    <rect x="25.00" y="52" width="299.82" height="12" fill="#b07219"><title>Java: 40.0%</title></rect>
+    <rect x="324.82" y="52" width="256.27" height="12" fill="#89e051"><title>Shell: 34.2%</title></rect>
+    <rect x="581.09" y="52" width="102.24" height="12" fill="#3178c6"><title>TypeScript: 13.6%</title></rect>
+    <rect x="683.33" y="52" width="62.45" height="12" fill="#00add8"><title>Go: 8.3%</title></rect>
+    <rect x="745.77" y="52" width="8.66" height="12" fill="#e34c26"><title>HTML: 1.2%</title></rect>
+    <rect x="754.43" y="52" width="7.55" height="12" fill="#3572a5"><title>Python: 1.0%</title></rect>
+    <rect x="761.99" y="52" width="7.05" height="12" fill="#384d54"><title>Dockerfile: 0.9%</title></rect>
+    <rect x="769.04" y="52" width="3.16" height="12" fill="#f1e05a"><title>JavaScript: 0.4%</title></rect>
     <rect x="772.20" y="52" width="3.00" height="12" fill="#663399"><title>CSS: 0.2%</title></rect>
     <rect x="775.20" y="52" width="3.00" height="12" fill="#012456"><title>PowerShell: 0.2%</title></rect>
   </g>
@@ -68,7 +68,7 @@
     <circle cx="285" cy="82" r="4.5" fill="#89e051" />
     <text x="296" y="86">
       <tspan class="lang-name">Shell</tspan>
-      <tspan class="lang-pct" dx="6">34.1%</tspan>
+      <tspan class="lang-pct" dx="6">34.2%</tspan>
       <tspan class="lang-size" dx="6">(1.1 MB)</tspan>
     </text>
     <circle cx="540" cy="82" r="4.5" fill="#3178c6" />
