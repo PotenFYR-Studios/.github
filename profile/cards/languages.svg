@@ -45,12 +45,12 @@
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="294.51" height="12" fill="#b07219"><title>Java: 39.3%</title></rect>
-    <rect x="319.51" y="52" width="250.74" height="12" fill="#89e051"><title>Shell: 33.4%</title></rect>
-    <rect x="570.25" y="52" width="112.32" height="12" fill="#3178c6"><title>TypeScript: 15.0%</title></rect>
-    <rect x="682.57" y="52" width="61.34" height="12" fill="#00add8"><title>Go: 8.2%</title></rect>
-    <rect x="743.91" y="52" width="10.65" height="12" fill="#e34c26"><title>HTML: 1.4%</title></rect>
-    <rect x="754.56" y="52" width="7.42" height="12" fill="#3572a5"><title>Python: 1.0%</title></rect>
+    <rect x="25.00" y="52" width="294.67" height="12" fill="#b07219"><title>Java: 39.3%</title></rect>
+    <rect x="319.67" y="52" width="250.87" height="12" fill="#89e051"><title>Shell: 33.4%</title></rect>
+    <rect x="570.54" y="52" width="112.38" height="12" fill="#3178c6"><title>TypeScript: 15.0%</title></rect>
+    <rect x="682.92" y="52" width="61.37" height="12" fill="#00add8"><title>Go: 8.2%</title></rect>
+    <rect x="744.29" y="52" width="10.26" height="12" fill="#e34c26"><title>HTML: 1.4%</title></rect>
+    <rect x="754.55" y="52" width="7.42" height="12" fill="#3572a5"><title>Python: 1.0%</title></rect>
     <rect x="761.98" y="52" width="6.86" height="12" fill="#384d54"><title>Dockerfile: 0.9%</title></rect>
     <rect x="768.84" y="52" width="3.30" height="12" fill="#f1e05a"><title>JavaScript: 0.4%</title></rect>
     <rect x="772.14" y="52" width="3.00" height="12" fill="#663399"><title>CSS: 0.2%</title></rect>
@@ -87,7 +87,7 @@
     <text x="296" y="110">
       <tspan class="lang-name">HTML</tspan>
       <tspan class="lang-pct" dx="6">1.4%</tspan>
-      <tspan class="lang-size" dx="6">(46.6 KB)</tspan>
+      <tspan class="lang-size" dx="6">(44.9 KB)</tspan>
     </text>
     <circle cx="540" cy="106" r="4.5" fill="#3572a5" />
     <text x="551" y="110">
