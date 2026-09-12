@@ -469,10 +469,13 @@ def build_languages(repos):
 
 
 def build_history(repos):
-    # Every public repo in the graph, always rendered with a black background
-    # (single dark-theme image - no <picture> switching, no star-count limit).
+    # Every starred public repo in the graph, always rendered with a black
+    # background (single dark-theme image - no <picture> switching, no
+    # star-count limit). Zero-star repos draw no curve, so they are excluded
+    # to keep the chart URL short and the remote render reliable.
+    starred = [r for r in repos if r["stargazers_count"] > 0]
     ordered = sorted(
-        repos, key=lambda r: (r["stargazers_count"], r["name"]), reverse=True
+        starred, key=lambda r: (r["stargazers_count"], r["name"]), reverse=True
     )
     names = ",".join(f"{ORG.lower()}/{r['name'].lower()}" for r in ordered)
     url = f"https://api.star-history.com/svg?repos={names}&type=Date&theme=dark"
