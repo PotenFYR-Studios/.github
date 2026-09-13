@@ -37,7 +37,8 @@
   <text class="card-title" x="48" y="36">VigilFYR</text>
 
   <!-- Repo Description -->
-  <text class="card-desc" x="25" y="67">No description provided.</text>
+  <text class="card-desc" x="25" y="60">Vigil is a local guard for AI coding agents:</text>
+    <text class="card-desc" x="25" y="78">it sits between your agent and your file...</text>
 
   <!-- Footer Meta (Lang, Stars, Forks) -->
   <circle cx="29" cy="107" r="5" fill="#dea584" />

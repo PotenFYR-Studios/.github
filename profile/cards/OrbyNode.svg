@@ -37,7 +37,8 @@
   <text class="card-title" x="48" y="36">OrbyNode</text>
 
   <!-- Repo Description -->
-  <text class="card-desc" x="25" y="67">No description provided.</text>
+  <text class="card-desc" x="25" y="60">OrbyNode is the self-hosted control plane for</text>
+    <text class="card-desc" x="25" y="78">coding agents. It runs persistent termin...</text>
 
   <!-- Footer Meta (Lang, Stars, Forks) -->
   <circle cx="29" cy="107" r="5" fill="#dea584" />
