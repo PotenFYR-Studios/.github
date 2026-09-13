@@ -19,12 +19,10 @@
 
 [![Auto Refresh](https://img.shields.io/github/actions/workflow/status/PotenFYR-Studios/.github/update-profile-readme.yml?style=flat-square&logo=githubactions&label=Auto%20Refresh&labelColor=1c1e26&color=2ea043)](https://github.com/PotenFYR-Studios/.github/actions/workflows/update-profile-readme.yml)
 
-> 💡 Everything on this page is **live & auto-synced**: repository cards, statistics, forks, stars, and language distribution are generated directly from the GitHub API and automatically synced hourly and on repository updates. New public repos appear here automatically and removed ones disappear. Private repos are never shown.
-
 <!-- POTENFYR:START:stats -->
 | Public Repos | Total Stars | Total Forks | Open Issues | Public Members |
 |:---:|:---:|:---:|:---:|:---:|
-| [<img src="https://img.shields.io/badge/📦-15-2ea043?style=flat-square&labelColor=1c1e26" alt="📦 15">](https://github.com/orgs/PotenFYR-Studios/repositories) | [<img src="https://img.shields.io/badge/⭐-17-eac54f?style=flat-square&labelColor=1c1e26" alt="⭐ 17">](https://github.com/orgs/PotenFYR-Studios/repositories?type=all&sort=stargazers) | [<img src="https://img.shields.io/badge/🍴-2-0078d7?style=flat-square&labelColor=1c1e26" alt="🍴 2">](https://github.com/orgs/PotenFYR-Studios/repositories?type=fork) | [<img src="https://img.shields.io/badge/🛠️-0-db61a2?style=flat-square&labelColor=1c1e26" alt="🛠️ 0">](https://github.com/search?q=org%3APotenFYR-Studios+is%3Aopen) | [<img src="https://img.shields.io/badge/👥-1-8957e5?style=flat-square&labelColor=1c1e26" alt="👥 1">](https://github.com/orgs/PotenFYR-Studios/people) |
+| [<img src="https://img.shields.io/badge/📦-14-2ea043?style=flat-square&labelColor=1c1e26" alt="📦 14">](https://github.com/orgs/PotenFYR-Studios/repositories) | [<img src="https://img.shields.io/badge/⭐-17-eac54f?style=flat-square&labelColor=1c1e26" alt="⭐ 17">](https://github.com/orgs/PotenFYR-Studios/repositories?type=all&sort=stargazers) | [<img src="https://img.shields.io/badge/🍴-2-0078d7?style=flat-square&labelColor=1c1e26" alt="🍴 2">](https://github.com/orgs/PotenFYR-Studios/repositories?type=fork) | [<img src="https://img.shields.io/badge/🛠️-0-db61a2?style=flat-square&labelColor=1c1e26" alt="🛠️ 0">](https://github.com/search?q=org%3APotenFYR-Studios+is%3Aopen) | [<img src="https://img.shields.io/badge/👥-1-8957e5?style=flat-square&labelColor=1c1e26" alt="👥 1">](https://github.com/orgs/PotenFYR-Studios/people) |
 
 > 🏠 Based in India · On GitHub since 2026 · Everything below is pulled straight from the GitHub API and refreshes itself.
 
@@ -33,8 +31,6 @@
 ---
 
 ## ⭐ Repository Dashboard
-
-Sorted by stars, straight from the API. Public repos only.
 
 <!-- POTENFYR:START:repos -->
 | Repository | About | Language | Stars | Forks | Last Commit |
@@ -89,14 +85,14 @@ Sorted by stars, straight from the API. Public repos only.
 ### 📈 Star History
 
 <!-- POTENFYR:START:history -->
-<img src="https://api.star-history.com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/statfyr,potenfyr-studios/discord-botlists,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
+<img src="https://api.star-history.com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/statfyr,potenfyr-studios/discord-botlists,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web,potenfyr-studios/ojaj&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
 
 <sub>📈 Graph by [star-history.com](https://star-history.com), rendered live for every public repo. It updates as visitors view this page, so new stars show up instantly.</sub>
 
 <!-- POTENFYR:END:history -->
 
 <!-- POTENFYR:START:meta -->
-<sub>⚡ Last refreshed **2026-09-13 12:23 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
+<sub>⚡ Last refreshed **2026-09-12 17:15 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
 
 <!-- POTENFYR:END:meta -->
 

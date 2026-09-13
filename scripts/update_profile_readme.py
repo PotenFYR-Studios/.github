@@ -6,7 +6,6 @@ Regenerates the sections between <!-- POTENFYR:START:xxx --> and
 private repositories are never visible through this unauthenticated API view.
 """
 
-import datetime
 import json
 import os
 import re
@@ -96,7 +95,6 @@ def build_stats(org, repos):
     forks = sum(r["forks_count"] for r in repos)
     issues = sum(r["open_issues_count"] for r in repos)
     members = len(paginate(f"/orgs/{ORG}/members"))
-    created = org.get("created_at", "")[:4]
 
     def cell(shield, href):
         return f"[{shield}]({href})"
@@ -108,8 +106,7 @@ def build_stats(org, repos):
         f"| {cell(shield('⭐', stars, 'eac54f'), f'https://github.com/orgs/{ORG}/repositories?type=all&sort=stargazers')} "
         f"| {cell(shield('🍴', forks, '0078d7'), f'https://github.com/orgs/{ORG}/repositories?type=fork')} "
         f"| {cell(shield('🛠️', issues, 'db61a2'), f'https://github.com/search?q=org%3A{ORG}+is%3Aopen')} "
-        f"| {cell(shield('👥', members, '8957e5'), f'https://github.com/orgs/{ORG}/people')} |\n\n"
-        f"> 🏠 Based in {org.get('location') or 'planet Earth'} · On GitHub since {created} · Everything below is pulled straight from the GitHub API and refreshes itself."
+        f"| {cell(shield('👥', members, '8957e5'), f'https://github.com/orgs/{ORG}/people')} |\n"
     )
 
 
@@ -469,10 +466,6 @@ def build_languages(repos):
 
 
 def build_history(repos):
-    # Every starred public repo in the graph, always rendered with a black
-    # background (single dark-theme image - no <picture> switching, no
-    # star-count limit). Zero-star repos draw no curve, so they are excluded
-    # to keep the chart URL short and the remote render reliable.
     starred = [r for r in repos if r["stargazers_count"] > 0]
     ordered = sorted(
         starred, key=lambda r: (r["stargazers_count"], r["name"]), reverse=True
@@ -480,17 +473,7 @@ def build_history(repos):
     names = ",".join(f"{ORG.lower()}/{r['name'].lower()}" for r in ordered)
     url = f"https://api.star-history.com/svg?repos={names}&type=Date&theme=dark"
     return (
-        f'<img src="{url}" alt="Star history graph for all {ORG} public repositories">\n\n'
-        "<sub>📈 Graph by [star-history.com](https://star-history.com), rendered live for every public repo. "
-        "It updates as visitors view this page, so new stars show up instantly.</sub>"
-    )
-
-
-def build_meta():
-    now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    return (
-        f"<sub>⚡ Last refreshed **{now}** · Data source: GitHub REST API (public repos only) · "
-        f"Auto-synced continuously by [GitHub Actions](https://github.com/{ORG}/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>"
+        f'<img src="{url}" alt="Star history graph for all {ORG} public repositories">'
     )
 
 
@@ -500,7 +483,6 @@ SECTIONS = {
     "cards": lambda: build_cards(load_repos()),
     "languages": lambda: build_languages(load_repos()),
     "history": lambda: build_history(load_repos()),
-    "meta": build_meta,
 }
 
 _repos_cache = None
