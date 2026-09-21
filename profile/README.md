@@ -22,7 +22,7 @@
 <!-- POTENFYR:START:stats -->
 | Public Repos | Total Stars | Total Forks | Open Issues | Public Members |
 |:---:|:---:|:---:|:---:|:---:|
-| [<img src="https://img.shields.io/badge/📦-15-2ea043?style=flat-square&labelColor=1c1e26" alt="📦 15">](https://github.com/orgs/PotenFYR-Studios/repositories) | [<img src="https://img.shields.io/badge/⭐-19-eac54f?style=flat-square&labelColor=1c1e26" alt="⭐ 19">](https://github.com/orgs/PotenFYR-Studios/repositories?type=all&sort=stargazers) | [<img src="https://img.shields.io/badge/🍴-2-0078d7?style=flat-square&labelColor=1c1e26" alt="🍴 2">](https://github.com/orgs/PotenFYR-Studios/repositories?type=fork) | [<img src="https://img.shields.io/badge/🛠️-0-db61a2?style=flat-square&labelColor=1c1e26" alt="🛠️ 0">](https://github.com/search?q=org%3APotenFYR-Studios+is%3Aopen) | [<img src="https://img.shields.io/badge/👥-1-8957e5?style=flat-square&labelColor=1c1e26" alt="👥 1">](https://github.com/orgs/PotenFYR-Studios/people) |
+| [<img src="https://img.shields.io/badge/📦-15-2ea043?style=flat-square&labelColor=1c1e26" alt="📦 15">](https://github.com/orgs/PotenFYR-Studios/repositories) | [<img src="https://img.shields.io/badge/⭐-20-eac54f?style=flat-square&labelColor=1c1e26" alt="⭐ 20">](https://github.com/orgs/PotenFYR-Studios/repositories?type=all&sort=stargazers) | [<img src="https://img.shields.io/badge/🍴-2-0078d7?style=flat-square&labelColor=1c1e26" alt="🍴 2">](https://github.com/orgs/PotenFYR-Studios/repositories?type=fork) | [<img src="https://img.shields.io/badge/🛠️-0-db61a2?style=flat-square&labelColor=1c1e26" alt="🛠️ 0">](https://github.com/search?q=org%3APotenFYR-Studios+is%3Aopen) | [<img src="https://img.shields.io/badge/👥-1-8957e5?style=flat-square&labelColor=1c1e26" alt="👥 1">](https://github.com/orgs/PotenFYR-Studios/people) |
 
 
 <!-- POTENFYR:END:stats -->
@@ -57,8 +57,8 @@
 <!-- POTENFYR:START:cards -->
 | 🌟 Repositories | 🌟 Repositories |
 |:---:|:---:|
-| <a href="https://github.com/PotenFYR-Studios/AuthCore"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/AuthCore.svg" alt="AuthCore"></a> | <a href="https://github.com/PotenFYR-Studios/statfyr"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/statfyr.svg" alt="statfyr"></a> |
-| <a href="https://github.com/PotenFYR-Studios/discord-botlists"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/discord-botlists.svg" alt="discord-botlists"></a> | <a href="https://github.com/PotenFYR-Studios/potenfyr-nest"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/potenfyr-nest.svg" alt="potenfyr-nest"></a> |
+| <a href="https://github.com/PotenFYR-Studios/AuthCore"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/AuthCore.svg" alt="AuthCore"></a> | <a href="https://github.com/PotenFYR-Studios/discord-botlists"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/discord-botlists.svg" alt="discord-botlists"></a> |
+| <a href="https://github.com/PotenFYR-Studios/statfyr"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/statfyr.svg" alt="statfyr"></a> | <a href="https://github.com/PotenFYR-Studios/potenfyr-nest"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/potenfyr-nest.svg" alt="potenfyr-nest"></a> |
 | <a href="https://github.com/PotenFYR-Studios/VigilFYR"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/VigilFYR.svg" alt="VigilFYR"></a> | <a href="https://github.com/PotenFYR-Studios/Shell-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Shell-Eggs.svg" alt="Shell-Eggs"></a> |
 | <a href="https://github.com/PotenFYR-Studios/Prog-Language-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Prog-Language-Eggs.svg" alt="Prog-Language-Eggs"></a> | <a href="https://github.com/PotenFYR-Studios/OrbyNode"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/OrbyNode.svg" alt="OrbyNode"></a> |
 | <a href="https://github.com/PotenFYR-Studios/Minecraft-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Minecraft-Eggs.svg" alt="Minecraft-Eggs"></a> | <a href="https://github.com/PotenFYR-Studios/FYRwall"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/FYRwall.svg" alt="FYRwall"></a> |
@@ -84,7 +84,7 @@
 ### 📈 Star History
 
 <!-- POTENFYR:START:history -->
-<img src="https://api.star-history.com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/statfyr,potenfyr-studios/discord-botlists,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/orbynode,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
+<img src="https://api.star-history.com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/discord-botlists,potenfyr-studios/statfyr,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/orbynode,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
 
 <!-- POTENFYR:END:history -->
 
