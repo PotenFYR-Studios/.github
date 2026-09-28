@@ -3,13 +3,13 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,50:ec4899,100:f97316&height=220&section=header&text=PotenFYR%20Studios&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=Games%20%C2%B7%20Tools%20%C2%B7%20Eggs%20%C2%B7%20Open%20Source&descSize=20&descAlignY=55&animation=twinkling" width="100%" alt="PotenFYR Studios banner"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1200&color=8B5CF6&center=true&vCenter=true&width=800&lines=We+ship+games%2C+plugins+%26+platforms;One+jump+launches+the+whole+server+%F0%9F%9A%80;Eggs+for+every+panel.+Every+database.+Every+language.;Powered+by+community+%2B+caffeine)](https://github.com/PotenFYR-Studios)
+[![Typing SVG](https://readmefx.potenfyr.in/api/typing?lines=We+ship+games%2C+plugins+%26+platforms;One+jump+launches+the+whole+server+%F0%9F%9A%80;Eggs+for+every+panel.+Every+database.+Every+language.;Powered+by+community+%2B+caffeine&font=Fira+Code&fontSize=20&duration=3&pause=1.2&width=800&theme=tokyo-night)](https://github.com/PotenFYR-Studios)
 
-[![Website](https://img.shields.io/badge/Website-potenfyr.in-8b5cf6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1c1e26)](https://potenfyr.in)
-[![Discord](https://img.shields.io/badge/Discord-Join%20us-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1c1e26)](https://discord.com/invite/zUaN2FPBec)
-[![Modrinth](https://img.shields.io/badge/Modrinth-potenfyr-1bd96a?style=for-the-badge&logo=modrinth&logoColor=white&labelColor=1c1e26)](https://modrinth.com/organization/potenfyr)
-[![Email](https://img.shields.io/badge/Email-support%40potenfyr.in-f97316?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1c1e26)](mailto:support@potenfyr.in)
-[![View](https://komarev.com/ghpvc/?username=PotenFYR-Studios&color=ec4899&style=for-the-badge&label=VIEW&labelColor=1c1e26)](https://github.com/PotenFYR-Studios)
+[![Website](https://readmefx.potenfyr.in/api/badge?label=Website&message=potenfyr.in&color=purple&style=for-the-badge)](https://potenfyr.in)
+[![Discord](https://readmefx.potenfyr.in/api/badge?label=Discord&message=Join%20us&color=blue&style=for-the-badge)](https://discord.com/invite/zUaN2FPBec)
+[![Modrinth](https://readmefx.potenfyr.in/api/badge?label=Modrinth&message=potenfyr&color=success&style=for-the-badge)](https://modrinth.com/organization/potenfyr)
+[![Email](https://readmefx.potenfyr.in/api/badge?label=Email&message=support%40potenfyr.in&color=warning&style=for-the-badge)](mailto:support@potenfyr.in)
+[![Profile views](https://readmefx.potenfyr.in/api/visitors?username=PotenFYR-Studios&label=PROFILE%20VIEWS&color=%23a855f7&style=for-the-badge)](https://github.com/PotenFYR-Studios)
 
 </div>
 
@@ -20,9 +20,13 @@
 [![Auto Refresh](https://img.shields.io/github/actions/workflow/status/PotenFYR-Studios/.github/update-profile-readme.yml?style=flat-square&logo=githubactions&label=Auto%20Refresh&labelColor=1c1e26&color=2ea043)](https://github.com/PotenFYR-Studios/.github/actions/workflows/update-profile-readme.yml)
 
 <!-- POTENFYR:START:stats -->
-| Public Repos | Total Stars | Total Forks | Open Issues | Public Members |
-|:---:|:---:|:---:|:---:|:---:|
-| [<img src="https://img.shields.io/badge/📦-16-2ea043?style=flat-square&labelColor=1c1e26" alt="📦 16">](https://github.com/orgs/PotenFYR-Studios/repositories) | [<img src="https://img.shields.io/badge/⭐-21-eac54f?style=flat-square&labelColor=1c1e26" alt="⭐ 21">](https://github.com/orgs/PotenFYR-Studios/repositories?type=all&sort=stargazers) | [<img src="https://img.shields.io/badge/🍴-2-0078d7?style=flat-square&labelColor=1c1e26" alt="🍴 2">](https://github.com/orgs/PotenFYR-Studios/repositories?type=fork) | [<img src="https://img.shields.io/badge/🛠️-0-db61a2?style=flat-square&labelColor=1c1e26" alt="🛠️ 0">](https://github.com/search?q=org%3APotenFYR-Studios+is%3Aopen) | [<img src="https://img.shields.io/badge/👥-1-8957e5?style=flat-square&labelColor=1c1e26" alt="👥 1">](https://github.com/orgs/PotenFYR-Studios/people) |
+<div align="center">
+
+[![PotenFYR Studios organization stats](https://readmefx.potenfyr.in/api/org?username=PotenFYR-Studios&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios)
+
+<img src="https://img.shields.io/badge/📦-16-2ea043?style=flat-square&labelColor=1c1e26" alt="📦 16"> <img src="https://img.shields.io/badge/⭐-21-eac54f?style=flat-square&labelColor=1c1e26" alt="⭐ 21"> <img src="https://img.shields.io/badge/🍴-2-0078d7?style=flat-square&labelColor=1c1e26" alt="🍴 2"> <img src="https://img.shields.io/badge/🛠️-0-db61a2?style=flat-square&labelColor=1c1e26" alt="🛠️ 0"> <img src="https://img.shields.io/badge/👥-1-8957e5?style=flat-square&labelColor=1c1e26" alt="👥 1">
+
+</div>
 
 
 <!-- POTENFYR:END:stats -->
@@ -32,40 +36,46 @@
 ## ⭐ Repository Dashboard
 
 <!-- POTENFYR:START:repos -->
-| Repository | About | Language | Stars | Forks | Last Commit |
-|:---|:---|:---:|:---:|:---:|:---:|
-| 🗂️ [**AuthCore**](https://github.com/PotenFYR-Studios/AuthCore) | AuthCore is a lightweight, server-side authentication framework for Fabric servers, enabling secure player …<br>![](https://img.shields.io/badge/%23authentication-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23fabric-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23fabric--mod-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23forge-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Java-b07219?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/AuthCore?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/AuthCore/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/AuthCore?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/AuthCore) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/AuthCore?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**discord-botlists**](https://github.com/PotenFYR-Studios/discord-botlists) | Multi-Discord-Botlist Management Package with 40+ Botlist Supported with Events and Stats Update Methods<br>![](https://img.shields.io/badge/%23botlists-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23discord-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23discord--botlists-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/discord-botlists?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/discord-botlists/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/discord-botlists?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/discord-botlists/forks) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/discord-botlists?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**statfyr**](https://github.com/PotenFYR-Studios/statfyr) | Statfyr is a blazing-fast REST API plugin for Minecraft that exposes player statistics through a clean, doc…<br>![](https://img.shields.io/badge/%23api-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23java-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23leaderboard-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23minecraft-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Java-b07219?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/statfyr?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/statfyr/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/statfyr?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/statfyr/forks) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/statfyr?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**.web**](https://github.com/PotenFYR-Studios/.web) | Official Website for PotenFYR Studios<br>![](https://img.shields.io/badge/%23donations-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23donations--website-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23potenfyr-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23website-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/.web?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/.web/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/.web?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/.web) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/.web?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**VigilFYR**](https://github.com/PotenFYR-Studios/VigilFYR) | Vigil is a local guard for AI coding agents: it sits between your agent and your filesystem and blocks read… | ![](https://img.shields.io/badge/Rust-dea584?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/VigilFYR?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/VigilFYR/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/VigilFYR?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/VigilFYR) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/VigilFYR?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**FYRwall**](https://github.com/PotenFYR-Studios/FYRwall) | FYRwall gives administrators a clean GUI over UFW and iptables without ever running the web server as root,…<br>![](https://img.shields.io/badge/%23firewall-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23firewall--management-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23firewall--manager-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23linux-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Go-00add8?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/FYRwall?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/FYRwall/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/FYRwall?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/FYRwall) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/FYRwall?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**potenfyr-nest**](https://github.com/PotenFYR-Studios/potenfyr-nest) | Central mirror of every egg collection published by PotenFYR-Studios, kept in sync automatically from the org.<br>![](https://img.shields.io/badge/%23eggs-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23multi--eggs-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23nests-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23potenfyr-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/potenfyr-nest?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/potenfyr-nest/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/potenfyr-nest?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/potenfyr-nest) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/potenfyr-nest?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**Minecraft-Eggs**](https://github.com/PotenFYR-Studios/Minecraft-Eggs) | Universal Minecraft egg for Pterodactyl, Pelican, and Feather Panel. Supports Vanilla, Paper, Purpur, Fabri…<br>![](https://img.shields.io/badge/%23bedrock-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23docker-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23fabric-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23feather--panel-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Shell-89e051?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/Minecraft-Eggs?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/Minecraft-Eggs/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/Minecraft-Eggs?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/Minecraft-Eggs) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/Minecraft-Eggs?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**Shell-Eggs**](https://github.com/PotenFYR-Studios/Shell-Eggs) | Host any shell - incoming, tunneled, reversed, encrypted, covert, web or debug - from one panel egg. Creden…<br>![](https://img.shields.io/badge/%23bash-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23eggs-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23nest-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23potenfyr-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Shell-89e051?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/Shell-Eggs?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/Shell-Eggs/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/Shell-Eggs?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/Shell-Eggs) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/Shell-Eggs?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**Prog-Language-Eggs**](https://github.com/PotenFYR-Studios/Prog-Language-Eggs) | One egg. One image. Every language. A production-grade hosting platform that installs, updates, compiles an…<br>![](https://img.shields.io/badge/%23amd-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23arm-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23docker-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23docker--image-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Shell-89e051?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/Prog-Language-Eggs?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/Prog-Language-Eggs/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/Prog-Language-Eggs?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/Prog-Language-Eggs) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/Prog-Language-Eggs?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**Database-Eggs**](https://github.com/PotenFYR-Studios/Database-Eggs) | One egg. Every database. Every version. Every panel. Production-ready multi-database eggs for Pterodactyl, …<br>![](https://img.shields.io/badge/%23docker-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23docker--image-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23egg-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23mariadb--egg-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Shell-89e051?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/Database-Eggs?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/Database-Eggs/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/Database-Eggs?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/Database-Eggs) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/Database-Eggs?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**OrbyNode**](https://github.com/PotenFYR-Studios/OrbyNode) | OrbyNode is the self-hosted control plane for coding agents. It runs persistent terminal agents, owns their…<br>![](https://img.shields.io/badge/%23agentic--ai-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23cli-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23daemon-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23orbynode-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Rust-dea584?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/OrbyNode?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/OrbyNode/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/OrbyNode?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/OrbyNode) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/OrbyNode?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**EchoingDeaths**](https://github.com/PotenFYR-Studios/EchoingDeaths) | EchoingDeaths adds immersive death-based curses to nearby players.  Whenever a player dies, nearby players …<br>![](https://img.shields.io/badge/%23cursedplugin-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23minecraft--plugin-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23modrinth-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23plugin-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Java-b07219?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/EchoingDeaths?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/EchoingDeaths/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/EchoingDeaths?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/EchoingDeaths) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/EchoingDeaths?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**APICordon**](https://github.com/PotenFYR-Studios/APICordon) | APICordon is the GitHub-native security layer for APIs. It discovers the API your code actually exposes, co…<br>![](https://img.shields.io/badge/%23api-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23api--security-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23code--review-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23github--actions-24292f?style=flat-square&labelColor=1c1e26) | n/a | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/APICordon?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/APICordon/stargazers) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/APICordon?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/APICordon) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/APICordon?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**HBS-Tool**](https://github.com/PotenFYR-Studios/HBS-Tool) | No description yet. | ![](https://img.shields.io/badge/TypeScript-3178c6?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/HBS-Tool?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/HBS-Tool) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/HBS-Tool?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/HBS-Tool) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/HBS-Tool?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
-| 🗂️ [**ojaj**](https://github.com/PotenFYR-Studios/ojaj) | A chaotic Spigot plugin where a single jump launches the entire server.<br>![](https://img.shields.io/badge/%23minecraft-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23minecraft--plugin-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23modrinth--plugin-24292f?style=flat-square&labelColor=1c1e26) ![](https://img.shields.io/badge/%23plugin--development-24292f?style=flat-square&labelColor=1c1e26) | ![](https://img.shields.io/badge/Java-b07219?style=flat-square&labelColor=1c1e26) | [![Stars](https://img.shields.io/github/stars/PotenFYR-Studios/ojaj?style=flat-square&logo=github&labelColor=1c1e26&color=eac54f)](https://github.com/PotenFYR-Studios/ojaj) | [![Forks](https://img.shields.io/github/forks/PotenFYR-Studios/ojaj?style=flat-square&logo=github&labelColor=1c1e26&color=0078d7)](https://github.com/PotenFYR-Studios/ojaj) | ![](https://img.shields.io/github/last-commit/PotenFYR-Studios/ojaj?style=flat-square&logo=git&labelColor=1c1e26&color=2ea043) |
+<div align="center">
+
+[![AuthCore](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FAuthCore&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/AuthCore)
+[![discord-botlists](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2Fdiscord-botlists&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/discord-botlists)
+[![statfyr](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2Fstatfyr&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/statfyr)
+[![.web](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2F.web&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/.web)
+[![VigilFYR](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FVigilFYR&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/VigilFYR)
+[![FYRwall](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FFYRwall&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/FYRwall)
+[![potenfyr-nest](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2Fpotenfyr-nest&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/potenfyr-nest)
+[![Minecraft-Eggs](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FMinecraft-Eggs&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/Minecraft-Eggs)
+[![Shell-Eggs](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FShell-Eggs&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/Shell-Eggs)
+[![Prog-Language-Eggs](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FProg-Language-Eggs&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/Prog-Language-Eggs)
+[![Database-Eggs](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FDatabase-Eggs&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/Database-Eggs)
+[![OrbyNode](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FOrbyNode&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/OrbyNode)
+[![EchoingDeaths](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FEchoingDeaths&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/EchoingDeaths)
+[![APICordon](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FAPICordon&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/APICordon)
+[![HBS-Tool](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FHBS-Tool&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/HBS-Tool)
+[![ojaj](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2Fojaj&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/ojaj)
+
+</div>
+
 
 <!-- POTENFYR:END:repos -->
 
 ### 🖼️ Featured Cards
 
 <!-- POTENFYR:START:cards -->
-| 🌟 Repositories | 🌟 Repositories |
-|:---:|:---:|
-| <a href="https://github.com/PotenFYR-Studios/AuthCore"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/AuthCore.svg" alt="AuthCore"></a> | <a href="https://github.com/PotenFYR-Studios/discord-botlists"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/discord-botlists.svg" alt="discord-botlists"></a> |
-| <a href="https://github.com/PotenFYR-Studios/statfyr"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/statfyr.svg" alt="statfyr"></a> | <a href="https://github.com/PotenFYR-Studios/potenfyr-nest"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/potenfyr-nest.svg" alt="potenfyr-nest"></a> |
-| <a href="https://github.com/PotenFYR-Studios/VigilFYR"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/VigilFYR.svg" alt="VigilFYR"></a> | <a href="https://github.com/PotenFYR-Studios/Shell-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Shell-Eggs.svg" alt="Shell-Eggs"></a> |
-| <a href="https://github.com/PotenFYR-Studios/Prog-Language-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Prog-Language-Eggs.svg" alt="Prog-Language-Eggs"></a> | <a href="https://github.com/PotenFYR-Studios/OrbyNode"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/OrbyNode.svg" alt="OrbyNode"></a> |
-| <a href="https://github.com/PotenFYR-Studios/Minecraft-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Minecraft-Eggs.svg" alt="Minecraft-Eggs"></a> | <a href="https://github.com/PotenFYR-Studios/FYRwall"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/FYRwall.svg" alt="FYRwall"></a> |
-| <a href="https://github.com/PotenFYR-Studios/EchoingDeaths"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/EchoingDeaths.svg" alt="EchoingDeaths"></a> | <a href="https://github.com/PotenFYR-Studios/Database-Eggs"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/Database-Eggs.svg" alt="Database-Eggs"></a> |
-| <a href="https://github.com/PotenFYR-Studios/APICordon"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/APICordon.svg" alt="APICordon"></a> | <a href="https://github.com/PotenFYR-Studios/.web"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/.web.svg" alt=".web"></a> |
-| <a href="https://github.com/PotenFYR-Studios/ojaj"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/ojaj.svg" alt="ojaj"></a> | <a href="https://github.com/PotenFYR-Studios/HBS-Tool"><img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/HBS-Tool.svg" alt="HBS-Tool"></a> |
+<div align="center">
+
+[![AuthCore](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FAuthCore&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/AuthCore)
+[![discord-botlists](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2Fdiscord-botlists&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/discord-botlists)
+[![statfyr](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2Fstatfyr&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/statfyr)
+[![potenfyr-nest](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2Fpotenfyr-nest&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/potenfyr-nest)
+[![VigilFYR](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FVigilFYR&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/VigilFYR)
+[![Shell-Eggs](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FShell-Eggs&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/Shell-Eggs)
+[![Prog-Language-Eggs](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FProg-Language-Eggs&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/Prog-Language-Eggs)
+[![OrbyNode](https://readmefx.potenfyr.in/api/repo?repo=PotenFYR-Studios%2FOrbyNode&showDescription=true&theme=tokyo-night&t=497390)](https://github.com/PotenFYR-Studios/OrbyNode)
+
+</div>
+
 
 <!-- POTENFYR:END:cards -->
 
@@ -73,28 +83,34 @@
 
 <!-- POTENFYR:START:languages -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/PotenFYR-Studios/.github/main/profile/cards/languages.svg" alt="Language Distribution" width="100%">
+  <img src="https://readmefx.potenfyr.in/api/languages?username=PotenFYR-Studios&langsCount=8&theme=tokyo-night&t=497390" alt="Language Distribution" width="460">
 </div>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-32.6%25-3178c6?style=flat-square&labelColor=1c1e26" alt="TypeScript 32.6%"> &nbsp; <img src="https://img.shields.io/badge/Rust-24.1%25-dea584?style=flat-square&labelColor=1c1e26" alt="Rust 24.1%"> &nbsp; <img src="https://img.shields.io/badge/Java-18.2%25-b07219?style=flat-square&labelColor=1c1e26" alt="Java 18.2%"> &nbsp; <img src="https://img.shields.io/badge/Shell-17.5%25-89e051?style=flat-square&labelColor=1c1e26" alt="Shell 17.5%"> &nbsp; <img src="https://img.shields.io/badge/Go-4.8%25-00add8?style=flat-square&labelColor=1c1e26" alt="Go 4.8%"> &nbsp; <img src="https://img.shields.io/badge/Python-0.6%25-3572a5?style=flat-square&labelColor=1c1e26" alt="Python 0.6%"> &nbsp; <img src="https://img.shields.io/badge/HTML-0.6%25-e34c26?style=flat-square&labelColor=1c1e26" alt="HTML 0.6%"> &nbsp; <img src="https://img.shields.io/badge/Dockerfile-0.5%25-384d54?style=flat-square&labelColor=1c1e26" alt="Dockerfile 0.5%"> &nbsp; <img src="https://img.shields.io/badge/CSS-0.4%25-663399?style=flat-square&labelColor=1c1e26" alt="CSS 0.4%"> &nbsp; <img src="https://img.shields.io/badge/PowerShell-0.4%25-012456?style=flat-square&labelColor=1c1e26" alt="PowerShell 0.4%"> &nbsp; <img src="https://img.shields.io/badge/JavaScript-0.3%25-f1e05a?style=flat-square&labelColor=1c1e26" alt="JavaScript 0.3%">
-</p>
 
 <!-- POTENFYR:END:languages -->
 
 ### 📈 Star History
 
 <!-- POTENFYR:START:history -->
-<img src="https://api.star-history.com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/discord-botlists,potenfyr-studios/statfyr,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/orbynode,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
+<img src="https://api.star-history. com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/discord-botlists,potenfyr-studios/statfyr,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/orbynode,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
 
 <!-- POTENFYR:END:history -->
 
 <!-- POTENFYR:START:meta -->
-<sub>⚡ Last refreshed **2026-09-12 17:15 UTC** · Data source: GitHub REST API (public repos only) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
+<sub>⚡ Last refreshed **2026-09-28 14:31 UTC** · Data source: GitHub REST API (public repos only) · Charts by [ReadmeFX](https://readmefx.potenfyr.in) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
 
 <!-- POTENFYR:END:meta -->
 
 ---
+
+## 🛍️ Live Project Cards
+
+<div align="center">
+
+[![AuthCore on Modrinth](https://readmefx.potenfyr.in/api/package?registry=modrinth&pkg=authcore&theme=tokyo-night&width=460)](https://modrinth.com/mod/authcore)
+[![Statfyr on Modrinth](https://readmefx.potenfyr.in/api/package?registry=modrinth&pkg=statfyr&theme=tokyo-night&width=460)](https://modrinth.com/plugin/statfyr)
+
+</div>
 
 ## 🗂️ What We Ship
 
@@ -102,6 +118,12 @@
 |:---:|:---:|:---:|
 | 🛍️ **Commerce**<br>E-commerce distribution & offer tooling | 🧩 **Minecraft**<br>Fabric & Spigot plugins, auth & stats frameworks | 🥚 **Hosting Eggs**<br>Pterodactyl · Pelican · Feather · PufferPanel |
 | 🤖 **Bots & APIs**<br>Discord bots, REST APIs, dashboards | 🔐 **Security**<br>API discovery & PR-native security feedback | 🌍 **Web**<br>Official website & community platforms |
+
+<div align="center">
+
+<img src="https://readmefx.potenfyr.in/api/countdown?mode=year&theme=tokyo-night" alt="Year progress" width="420">
+
+</div>
 
 ### 🔍 Project Highlights
 
@@ -132,14 +154,9 @@
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-89E051?style=for-the-badge&logo=gnu-bash&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Discord](https://img.shields.io/badge/Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white)
-![Minecraft](https://img.shields.io/badge/Fabric%20·%20Spigot%20·%20Paper-62b47a?style=for-the-badge&logo=minecraft&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+<img src="https://readmefx.potenfyr.in/api/skills?skills=typescript,java,bash,react,discord,docker,githubactions,go,rust&provider=skill-icons&showLabels=true&columns=5&theme=tokyo-night" alt="Tech stack icons" width="500">
+
+![Fabric · Spigot · Paper](https://img.shields.io/badge/Fabric%20·%20Spigot%20·%20Paper-62b47a?style=for-the-badge&logo=minecraft&logoColor=white)
 
 </div>
 
@@ -166,11 +183,11 @@ Our public repositories are licensed under the **Apache License 2.0 with the Com
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-PotenFYR--Studios-181717?style=for-the-badge&logo=github&labelColor=1c1e26)](https://github.com/PotenFYR-Studios)
-[![Website](https://img.shields.io/badge/Website-potenfyr.in-8b5cf6?style=for-the-badge&logo=googlechrome&labelColor=1c1e26)](https://potenfyr.in)
-[![Community](https://img.shields.io/badge/Community-Discord-5865F2?style=for-the-badge&logo=discord&labelColor=1c1e26)](https://discord.com/invite/zUaN2FPBec)
-[![Support](https://img.shields.io/badge/Support-Server-5865F2?style=for-the-badge&logo=discord&labelColor=1c1e26)](https://discord.com/invite/PRJASTKqwD)
-[![Modrinth](https://img.shields.io/badge/Modrinth-Organization-1bd96a?style=for-the-badge&logo=modrinth&labelColor=1c1e26)](https://modrinth.com/organization/potenfyr)
+[![GitHub](https://readmefx.potenfyr.in/api/badge?label=GitHub&message=PotenFYR-Studios&color=gray&style=for-the-badge)](https://github.com/PotenFYR-Studios)
+[![Website](https://readmefx.potenfyr.in/api/badge?label=Website&message=potenfyr.in&color=purple&style=for-the-badge)](https://potenfyr.in)
+[![Community](https://readmefx.potenfyr.in/api/badge?label=Community&message=Discord&color=blue&style=for-the-badge)](https://discord.com/invite/zUaN2FPBec)
+[![Support](https://readmefx.potenfyr.in/api/badge?label=Support&message=Server&color=blue&style=for-the-badge&animation=shimmer)](https://discord.com/invite/PRJASTKqwD)
+[![Modrinth](https://readmefx.potenfyr.in/api/badge?label=Modrinth&message=Organization&color=success&style=for-the-badge)](https://modrinth.com/organization/potenfyr)
 
 </div>
 
@@ -183,6 +200,8 @@ Our public repositories are licensed under the **Apache License 2.0 with the Com
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f97316,50:ec4899,100:8b5cf6&height=120&section=footer&text=Made%20with%20%E2%9D%A4%EF%B8%8F%20by%20PotenFYR%20Studios&fontSize=22&fontColor=ffffff&animation=twinkling" width="100%" alt="footer"/>
+
+<img src="https://readmefx.potenfyr.in/api/text?text=Games%20%C2%B7%20Tools%20%C2%B7%20Eggs%20%C2%B7%20Open%20Source&animation=fade&theme=tokyo-night" alt="PotenFYR Studios tagline" width="480">
 
 </div>
 <!-- markdownlint-enable -->
