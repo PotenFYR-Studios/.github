@@ -86,18 +86,21 @@
   <img src="https://readmefx.potenfyr.in/api/languages?username=PotenFYR-Studios&langsCount=8&theme=tokyo-night&t=497390" alt="Language Distribution" width="460">
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-32.6%25-3178c6?style=flat-square&labelColor=1c1e26" alt="TypeScript 32.6%"> &nbsp; <img src="https://img.shields.io/badge/Rust-24.1%25-dea584?style=flat-square&labelColor=1c1e26" alt="Rust 24.1%"> &nbsp; <img src="https://img.shields.io/badge/Java-18.2%25-b07219?style=flat-square&labelColor=1c1e26" alt="Java 18.2%"> &nbsp; <img src="https://img.shields.io/badge/Shell-17.5%25-89e051?style=flat-square&labelColor=1c1e26" alt="Shell 17.5%"> &nbsp; <img src="https://img.shields.io/badge/Go-4.8%25-00add8?style=flat-square&labelColor=1c1e26" alt="Go 4.8%"> &nbsp; <img src="https://img.shields.io/badge/Python-0.6%25-3572a5?style=flat-square&labelColor=1c1e26" alt="Python 0.6%"> &nbsp; <img src="https://img.shields.io/badge/HTML-0.6%25-e34c26?style=flat-square&labelColor=1c1e26" alt="HTML 0.6%"> &nbsp; <img src="https://img.shields.io/badge/Dockerfile-0.5%25-384d54?style=flat-square&labelColor=1c1e26" alt="Dockerfile 0.5%"> &nbsp; <img src="https://img.shields.io/badge/CSS-0.4%25-663399?style=flat-square&labelColor=1c1e26" alt="CSS 0.4%"> &nbsp; <img src="https://img.shields.io/badge/PowerShell-0.4%25-012456?style=flat-square&labelColor=1c1e26" alt="PowerShell 0.4%"> &nbsp; <img src="https://img.shields.io/badge/JavaScript-0.3%25-f1e05a?style=flat-square&labelColor=1c1e26" alt="JavaScript 0.3%">
+</p>
 
 <!-- POTENFYR:END:languages -->
 
 ### 📈 Star History
 
 <!-- POTENFYR:START:history -->
-<img src="https://api.star-history.com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/discord-botlists,potenfyr-studios/statfyr,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/orbynode,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
+<img src="https://api.star-history. com/svg?repos=potenfyr-studios/authcore,potenfyr-studios/discord-botlists,potenfyr-studios/statfyr,potenfyr-studios/potenfyr-nest,potenfyr-studios/vigilfyr,potenfyr-studios/shell-eggs,potenfyr-studios/prog-language-eggs,potenfyr-studios/orbynode,potenfyr-studios/minecraft-eggs,potenfyr-studios/fyrwall,potenfyr-studios/echoingdeaths,potenfyr-studios/database-eggs,potenfyr-studios/apicordon,potenfyr-studios/.web&type=Date&theme=dark" alt="Star history graph for all PotenFYR-Studios public repositories">
 
 <!-- POTENFYR:END:history -->
 
 <!-- POTENFYR:START:meta -->
-<sub>⚡ Last refreshed **2026-09-28 14:40 UTC** · Data source: GitHub REST API (public repos only) · Charts by [ReadmeFX](https://readmefx.potenfyr.in) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
+<sub>⚡ Last refreshed **2026-09-28 14:31 UTC** · Data source: GitHub REST API (public repos only) · Charts by [ReadmeFX](https://readmefx.potenfyr.in) · Auto-synced continuously by [GitHub Actions](https://github.com/PotenFYR-Studios/.github/blob/main/.github/workflows/update-profile-readme.yml)</sub>
 
 <!-- POTENFYR:END:meta -->
 
