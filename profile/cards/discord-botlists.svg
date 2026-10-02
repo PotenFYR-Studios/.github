@@ -37,8 +37,8 @@
   <text class="card-title" x="48" y="36">discord-botlists</text>
 
   <!-- Repo Description -->
-  <text class="card-desc" x="25" y="60">Multi-Discord-Botlist Management Package with</text>
-    <text class="card-desc" x="25" y="78">40+ Botlist Supported with Events and St...</text>
+  <text class="card-desc" x="25" y="60">Universal multi-botlist SDK for Discord bots:</text>
+    <text class="card-desc" x="25" y="78">post stats to 27 verified live lists, ge...</text>
 
   <!-- Footer Meta (Lang, Stars, Forks) -->
   <circle cx="29" cy="107" r="5" fill="#3178c6" />
