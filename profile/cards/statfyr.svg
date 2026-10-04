@@ -37,7 +37,7 @@
   <text class="card-title" x="48" y="36">statfyr</text>
 
   <!-- Repo Description -->
-  <text class="card-desc" x="25" y="60">Statfyr is a blazing-fast REST API plugin for</text>
+  <text class="card-desc" x="25" y="60">Statfyr is a fast REST API plugin for</text>
     <text class="card-desc" x="25" y="78">Minecraft that exposes player statistics...</text>
 
   <!-- Footer Meta (Lang, Stars, Forks) -->

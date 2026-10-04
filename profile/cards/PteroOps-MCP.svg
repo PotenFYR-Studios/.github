@@ -37,7 +37,8 @@
   <text class="card-title" x="48" y="36">PteroOps-MCP</text>
 
   <!-- Repo Description -->
-  <text class="card-desc" x="25" y="67">No description provided.</text>
+  <text class="card-desc" x="25" y="60">AI-powered server management and monitoring</text>
+    <text class="card-desc" x="25" y="78">for Pterodactyl panels using MCP.</text>
 
   <!-- Footer Meta (Lang, Stars, Forks) -->
   <circle cx="29" cy="107" r="5" fill="#3178c6" />
