@@ -45,17 +45,17 @@
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="276.30" height="12" fill="#3178c6"><title>TypeScript: 36.8%</title></rect>
-    <rect x="301.30" y="52" width="183.76" height="12" fill="#dea584"><title>Rust: 24.5%</title></rect>
-    <rect x="485.06" y="52" width="126.92" height="12" fill="#b07219"><title>Java: 16.9%</title></rect>
-    <rect x="611.98" y="52" width="108.71" height="12" fill="#89e051"><title>Shell: 14.5%</title></rect>
-    <rect x="720.69" y="52" width="26.68" height="12" fill="#00add8"><title>Go: 3.6%</title></rect>
-    <rect x="747.37" y="52" width="7.50" height="12" fill="#012456"><title>PowerShell: 1.0%</title></rect>
-    <rect x="754.87" y="52" width="5.40" height="12" fill="#f1e05a"><title>JavaScript: 0.7%</title></rect>
-    <rect x="760.27" y="52" width="4.99" height="12" fill="#e34c26"><title>HTML: 0.7%</title></rect>
-    <rect x="765.26" y="52" width="3.40" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
-    <rect x="768.66" y="52" width="3.26" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
-    <rect x="771.92" y="52" width="3.08" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
+    <rect x="25.00" y="52" width="276.25" height="12" fill="#3178c6"><title>TypeScript: 36.8%</title></rect>
+    <rect x="301.25" y="52" width="183.61" height="12" fill="#dea584"><title>Rust: 24.5%</title></rect>
+    <rect x="484.86" y="52" width="126.77" height="12" fill="#b07219"><title>Java: 16.9%</title></rect>
+    <rect x="611.64" y="52" width="109.12" height="12" fill="#89e051"><title>Shell: 14.5%</title></rect>
+    <rect x="720.75" y="52" width="26.65" height="12" fill="#00add8"><title>Go: 3.6%</title></rect>
+    <rect x="747.40" y="52" width="7.49" height="12" fill="#012456"><title>PowerShell: 1.0%</title></rect>
+    <rect x="754.89" y="52" width="5.39" height="12" fill="#f1e05a"><title>JavaScript: 0.7%</title></rect>
+    <rect x="760.29" y="52" width="4.99" height="12" fill="#e34c26"><title>HTML: 0.7%</title></rect>
+    <rect x="765.27" y="52" width="3.39" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
+    <rect x="768.67" y="52" width="3.26" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
+    <rect x="771.93" y="52" width="3.07" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
   </g>
 
   <!-- Legend -->
