@@ -40,22 +40,22 @@
     <path fill="#7aa2f7" d="M4.72 3.22a.75.75 0 0 1 1.06 1.06L2.06 8l3.72 3.72a.75.75 0 1 1-1.06 1.06L.47 8.53a.75.75 0 0 1 0-1.06l4.25-4.25Zm6.56 0a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.06-1.06L13.94 8l-3.72-3.72a.75.75 0 0 1 0-1.06Z" />
     <text class="card-title" x="24" y="11">Language Share Across Repositories</text>
   </g>
-  <text class="card-sub" x="775" y="31" text-anchor="end">9.4 MB across 18 public repos</text>
+  <text class="card-sub" x="775" y="31" text-anchor="end">9.7 MB across 18 public repos</text>
 
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="276.25" height="12" fill="#3178c6"><title>TypeScript: 36.8%</title></rect>
-    <rect x="301.25" y="52" width="183.61" height="12" fill="#dea584"><title>Rust: 24.5%</title></rect>
-    <rect x="484.86" y="52" width="126.77" height="12" fill="#b07219"><title>Java: 16.9%</title></rect>
-    <rect x="611.64" y="52" width="109.12" height="12" fill="#89e051"><title>Shell: 14.5%</title></rect>
-    <rect x="720.75" y="52" width="26.65" height="12" fill="#00add8"><title>Go: 3.6%</title></rect>
-    <rect x="747.40" y="52" width="7.49" height="12" fill="#012456"><title>PowerShell: 1.0%</title></rect>
-    <rect x="754.89" y="52" width="5.39" height="12" fill="#f1e05a"><title>JavaScript: 0.7%</title></rect>
-    <rect x="760.29" y="52" width="4.99" height="12" fill="#e34c26"><title>HTML: 0.7%</title></rect>
-    <rect x="765.27" y="52" width="3.39" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
-    <rect x="768.67" y="52" width="3.26" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
-    <rect x="771.93" y="52" width="3.07" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
+    <rect x="25.00" y="52" width="268.40" height="12" fill="#3178c6"><title>TypeScript: 35.8%</title></rect>
+    <rect x="293.40" y="52" width="178.40" height="12" fill="#dea584"><title>Rust: 23.8%</title></rect>
+    <rect x="471.80" y="52" width="143.90" height="12" fill="#b07219"><title>Java: 19.2%</title></rect>
+    <rect x="615.70" y="52" width="106.02" height="12" fill="#89e051"><title>Shell: 14.1%</title></rect>
+    <rect x="721.72" y="52" width="25.89" height="12" fill="#00add8"><title>Go: 3.5%</title></rect>
+    <rect x="747.61" y="52" width="7.28" height="12" fill="#012456"><title>PowerShell: 1.0%</title></rect>
+    <rect x="754.89" y="52" width="5.42" height="12" fill="#e34c26"><title>HTML: 0.7%</title></rect>
+    <rect x="760.31" y="52" width="5.24" height="12" fill="#f1e05a"><title>JavaScript: 0.7%</title></rect>
+    <rect x="765.55" y="52" width="3.30" height="12" fill="#663399"><title>CSS: 0.4%</title></rect>
+    <rect x="768.85" y="52" width="3.17" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
+    <rect x="772.02" y="52" width="3.00" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
   </g>
 
   <!-- Legend -->
@@ -63,31 +63,31 @@
     <circle cx="30" cy="82" r="4.5" fill="#3178c6" />
     <text x="41" y="86">
       <tspan class="lang-name">TypeScript</tspan>
-      <tspan class="lang-pct" dx="6">36.8%</tspan>
+      <tspan class="lang-pct" dx="6">35.8%</tspan>
       <tspan class="lang-size" dx="6">(3.5 MB)</tspan>
     </text>
     <circle cx="285" cy="82" r="4.5" fill="#dea584" />
     <text x="296" y="86">
       <tspan class="lang-name">Rust</tspan>
-      <tspan class="lang-pct" dx="6">24.5%</tspan>
+      <tspan class="lang-pct" dx="6">23.8%</tspan>
       <tspan class="lang-size" dx="6">(2.3 MB)</tspan>
     </text>
     <circle cx="540" cy="82" r="4.5" fill="#b07219" />
     <text x="551" y="86">
       <tspan class="lang-name">Java</tspan>
-      <tspan class="lang-pct" dx="6">16.9%</tspan>
-      <tspan class="lang-size" dx="6">(1.6 MB)</tspan>
+      <tspan class="lang-pct" dx="6">19.2%</tspan>
+      <tspan class="lang-size" dx="6">(1.9 MB)</tspan>
     </text>
     <circle cx="30" cy="106" r="4.5" fill="#89e051" />
     <text x="41" y="110">
       <tspan class="lang-name">Shell</tspan>
-      <tspan class="lang-pct" dx="6">14.5%</tspan>
+      <tspan class="lang-pct" dx="6">14.1%</tspan>
       <tspan class="lang-size" dx="6">(1.4 MB)</tspan>
     </text>
     <circle cx="285" cy="106" r="4.5" fill="#00add8" />
     <text x="296" y="110">
       <tspan class="lang-name">Go</tspan>
-      <tspan class="lang-pct" dx="6">3.6%</tspan>
+      <tspan class="lang-pct" dx="6">3.5%</tspan>
       <tspan class="lang-size" dx="6">(342.7 KB)</tspan>
     </text>
     <circle cx="540" cy="106" r="4.5" fill="#012456" />
@@ -96,22 +96,22 @@
       <tspan class="lang-pct" dx="6">1.0%</tspan>
       <tspan class="lang-size" dx="6">(96.4 KB)</tspan>
     </text>
-    <circle cx="30" cy="130" r="4.5" fill="#f1e05a" />
+    <circle cx="30" cy="130" r="4.5" fill="#e34c26" />
     <text x="41" y="134">
+      <tspan class="lang-name">HTML</tspan>
+      <tspan class="lang-pct" dx="6">0.7%</tspan>
+      <tspan class="lang-size" dx="6">(71.8 KB)</tspan>
+    </text>
+    <circle cx="285" cy="130" r="4.5" fill="#f1e05a" />
+    <text x="296" y="134">
       <tspan class="lang-name">JavaScript</tspan>
       <tspan class="lang-pct" dx="6">0.7%</tspan>
       <tspan class="lang-size" dx="6">(69.3 KB)</tspan>
     </text>
-    <circle cx="285" cy="130" r="4.5" fill="#e34c26" />
-    <text x="296" y="134">
-      <tspan class="lang-name">HTML</tspan>
-      <tspan class="lang-pct" dx="6">0.7%</tspan>
-      <tspan class="lang-size" dx="6">(64.2 KB)</tspan>
-    </text>
     <circle cx="540" cy="130" r="4.5" fill="#663399" />
     <text x="551" y="134">
       <tspan class="lang-name">CSS</tspan>
-      <tspan class="lang-pct" dx="6">0.5%</tspan>
+      <tspan class="lang-pct" dx="6">0.4%</tspan>
       <tspan class="lang-size" dx="6">(43.7 KB)</tspan>
     </text>
     <circle cx="30" cy="154" r="4.5" fill="#3572a5" />
