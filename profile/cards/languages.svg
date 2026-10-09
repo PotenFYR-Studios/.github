@@ -45,17 +45,17 @@
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="248.68" height="12" fill="#3178c6"><title>TypeScript: 33.2%</title></rect>
-    <rect x="273.68" y="52" width="159.20" height="12" fill="#dea584"><title>Rust: 21.2%</title></rect>
-    <rect x="432.88" y="52" width="136.77" height="12" fill="#b07219"><title>Java: 18.2%</title></rect>
-    <rect x="569.64" y="52" width="96.39" height="12" fill="#89e051"><title>Shell: 12.9%</title></rect>
-    <rect x="666.03" y="52" width="65.53" height="12" fill="#e34c26"><title>HTML: 8.7%</title></rect>
-    <rect x="731.57" y="52" width="23.10" height="12" fill="#00add8"><title>Go: 3.1%</title></rect>
-    <rect x="754.67" y="52" width="6.50" height="12" fill="#012456"><title>PowerShell: 0.9%</title></rect>
-    <rect x="761.17" y="52" width="4.67" height="12" fill="#f1e05a"><title>JavaScript: 0.6%</title></rect>
-    <rect x="765.84" y="52" width="3.67" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
-    <rect x="769.51" y="52" width="3.00" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
-    <rect x="772.51" y="52" width="3.00" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
+    <rect x="25.00" y="52" width="248.45" height="12" fill="#3178c6"><title>TypeScript: 33.1%</title></rect>
+    <rect x="273.45" y="52" width="159.02" height="12" fill="#dea584"><title>Rust: 21.2%</title></rect>
+    <rect x="432.47" y="52" width="136.61" height="12" fill="#b07219"><title>Java: 18.2%</title></rect>
+    <rect x="569.08" y="52" width="96.29" height="12" fill="#89e051"><title>Shell: 12.8%</title></rect>
+    <rect x="665.37" y="52" width="65.63" height="12" fill="#e34c26"><title>HTML: 8.8%</title></rect>
+    <rect x="731.00" y="52" width="23.08" height="12" fill="#00add8"><title>Go: 3.1%</title></rect>
+    <rect x="754.07" y="52" width="6.49" height="12" fill="#012456"><title>PowerShell: 0.9%</title></rect>
+    <rect x="760.56" y="52" width="4.84" height="12" fill="#f1e05a"><title>JavaScript: 0.6%</title></rect>
+    <rect x="765.41" y="52" width="3.66" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
+    <rect x="769.07" y="52" width="3.27" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
+    <rect x="772.34" y="52" width="3.00" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
   </g>
 
   <!-- Legend -->
@@ -63,7 +63,7 @@
     <circle cx="30" cy="82" r="4.5" fill="#3178c6" />
     <text x="41" y="86">
       <tspan class="lang-name">TypeScript</tspan>
-      <tspan class="lang-pct" dx="6">33.2%</tspan>
+      <tspan class="lang-pct" dx="6">33.1%</tspan>
       <tspan class="lang-size" dx="6">(3.6 MB)</tspan>
     </text>
     <circle cx="285" cy="82" r="4.5" fill="#dea584" />
@@ -81,14 +81,14 @@
     <circle cx="30" cy="106" r="4.5" fill="#89e051" />
     <text x="41" y="110">
       <tspan class="lang-name">Shell</tspan>
-      <tspan class="lang-pct" dx="6">12.9%</tspan>
+      <tspan class="lang-pct" dx="6">12.8%</tspan>
       <tspan class="lang-size" dx="6">(1.4 MB)</tspan>
     </text>
     <circle cx="285" cy="106" r="4.5" fill="#e34c26" />
     <text x="296" y="110">
       <tspan class="lang-name">HTML</tspan>
-      <tspan class="lang-pct" dx="6">8.7%</tspan>
-      <tspan class="lang-size" dx="6">(972.1 KB)</tspan>
+      <tspan class="lang-pct" dx="6">8.8%</tspan>
+      <tspan class="lang-size" dx="6">(974.6 KB)</tspan>
     </text>
     <circle cx="540" cy="106" r="4.5" fill="#00add8" />
     <text x="551" y="110">
@@ -106,7 +106,7 @@
     <text x="296" y="134">
       <tspan class="lang-name">JavaScript</tspan>
       <tspan class="lang-pct" dx="6">0.6%</tspan>
-      <tspan class="lang-size" dx="6">(69.3 KB)</tspan>
+      <tspan class="lang-size" dx="6">(71.9 KB)</tspan>
     </text>
     <circle cx="540" cy="130" r="4.5" fill="#663399" />
     <text x="551" y="134">
@@ -118,7 +118,7 @@
     <text x="41" y="158">
       <tspan class="lang-name">Python</tspan>
       <tspan class="lang-pct" dx="6">0.4%</tspan>
-      <tspan class="lang-size" dx="6">(41.9 KB)</tspan>
+      <tspan class="lang-size" dx="6">(48.5 KB)</tspan>
     </text>
     <circle cx="285" cy="154" r="4.5" fill="#384d54" />
     <text x="296" y="158">
