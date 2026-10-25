@@ -45,12 +45,12 @@
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="249.83" height="12" fill="#3178c6"><title>TypeScript: 33.3%</title></rect>
-    <rect x="274.83" y="52" width="155.93" height="12" fill="#dea584"><title>Rust: 20.8%</title></rect>
-    <rect x="430.76" y="52" width="136.42" height="12" fill="#b07219"><title>Java: 18.2%</title></rect>
-    <rect x="567.18" y="52" width="99.78" height="12" fill="#89e051"><title>Shell: 13.3%</title></rect>
-    <rect x="666.96" y="52" width="64.32" height="12" fill="#e34c26"><title>HTML: 8.6%</title></rect>
-    <rect x="731.28" y="52" width="22.62" height="12" fill="#00add8"><title>Go: 3.0%</title></rect>
+    <rect x="25.00" y="52" width="249.81" height="12" fill="#3178c6"><title>TypeScript: 33.3%</title></rect>
+    <rect x="274.81" y="52" width="155.91" height="12" fill="#dea584"><title>Rust: 20.8%</title></rect>
+    <rect x="430.72" y="52" width="136.40" height="12" fill="#b07219"><title>Java: 18.2%</title></rect>
+    <rect x="567.12" y="52" width="99.84" height="12" fill="#89e051"><title>Shell: 13.3%</title></rect>
+    <rect x="666.97" y="52" width="64.31" height="12" fill="#e34c26"><title>HTML: 8.6%</title></rect>
+    <rect x="731.28" y="52" width="22.61" height="12" fill="#00add8"><title>Go: 3.0%</title></rect>
     <rect x="753.89" y="52" width="6.36" height="12" fill="#012456"><title>PowerShell: 0.8%</title></rect>
     <rect x="760.25" y="52" width="4.82" height="12" fill="#f1e05a"><title>JavaScript: 0.6%</title></rect>
     <rect x="765.07" y="52" width="3.72" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
