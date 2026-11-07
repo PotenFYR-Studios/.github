@@ -45,17 +45,17 @@
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="243.34" height="12" fill="#3178c6"><title>TypeScript: 32.4%</title></rect>
-    <rect x="268.34" y="52" width="151.88" height="12" fill="#dea584"><title>Rust: 20.3%</title></rect>
-    <rect x="420.22" y="52" width="151.83" height="12" fill="#b07219"><title>Java: 20.2%</title></rect>
-    <rect x="572.04" y="52" width="97.72" height="12" fill="#89e051"><title>Shell: 13.0%</title></rect>
-    <rect x="669.77" y="52" width="62.65" height="12" fill="#e34c26"><title>HTML: 8.4%</title></rect>
-    <rect x="732.41" y="52" width="22.03" height="12" fill="#00add8"><title>Go: 2.9%</title></rect>
-    <rect x="754.44" y="52" width="6.20" height="12" fill="#012456"><title>PowerShell: 0.8%</title></rect>
-    <rect x="760.64" y="52" width="4.69" height="12" fill="#f1e05a"><title>JavaScript: 0.6%</title></rect>
-    <rect x="765.33" y="52" width="3.62" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
-    <rect x="768.95" y="52" width="3.25" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
-    <rect x="772.20" y="52" width="3.00" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
+    <rect x="25.00" y="52" width="242.62" height="12" fill="#3178c6"><title>TypeScript: 32.3%</title></rect>
+    <rect x="267.62" y="52" width="155.32" height="12" fill="#b07219"><title>Java: 20.7%</title></rect>
+    <rect x="422.94" y="52" width="151.43" height="12" fill="#dea584"><title>Rust: 20.2%</title></rect>
+    <rect x="574.37" y="52" width="97.44" height="12" fill="#89e051"><title>Shell: 13.0%</title></rect>
+    <rect x="671.80" y="52" width="60.90" height="12" fill="#e34c26"><title>HTML: 8.1%</title></rect>
+    <rect x="732.70" y="52" width="21.96" height="12" fill="#00add8"><title>Go: 2.9%</title></rect>
+    <rect x="754.66" y="52" width="6.18" height="12" fill="#012456"><title>PowerShell: 0.8%</title></rect>
+    <rect x="760.84" y="52" width="4.52" height="12" fill="#f1e05a"><title>JavaScript: 0.6%</title></rect>
+    <rect x="765.36" y="52" width="3.61" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
+    <rect x="768.97" y="52" width="3.24" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
+    <rect x="772.21" y="52" width="3.00" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
   </g>
 
   <!-- Legend -->
@@ -63,18 +63,18 @@
     <circle cx="30" cy="82" r="4.5" fill="#3178c6" />
     <text x="41" y="86">
       <tspan class="lang-name">TypeScript</tspan>
-      <tspan class="lang-pct" dx="6">32.4%</tspan>
+      <tspan class="lang-pct" dx="6">32.3%</tspan>
       <tspan class="lang-size" dx="6">(3.7 MB)</tspan>
     </text>
-    <circle cx="285" cy="82" r="4.5" fill="#dea584" />
+    <circle cx="285" cy="82" r="4.5" fill="#b07219" />
     <text x="296" y="86">
-      <tspan class="lang-name">Rust</tspan>
-      <tspan class="lang-pct" dx="6">20.3%</tspan>
-      <tspan class="lang-size" dx="6">(2.3 MB)</tspan>
-    </text>
-    <circle cx="540" cy="82" r="4.5" fill="#b07219" />
-    <text x="551" y="86">
       <tspan class="lang-name">Java</tspan>
+      <tspan class="lang-pct" dx="6">20.7%</tspan>
+      <tspan class="lang-size" dx="6">(2.4 MB)</tspan>
+    </text>
+    <circle cx="540" cy="82" r="4.5" fill="#dea584" />
+    <text x="551" y="86">
+      <tspan class="lang-name">Rust</tspan>
       <tspan class="lang-pct" dx="6">20.2%</tspan>
       <tspan class="lang-size" dx="6">(2.3 MB)</tspan>
     </text>
@@ -87,8 +87,8 @@
     <circle cx="285" cy="106" r="4.5" fill="#e34c26" />
     <text x="296" y="110">
       <tspan class="lang-name">HTML</tspan>
-      <tspan class="lang-pct" dx="6">8.4%</tspan>
-      <tspan class="lang-size" dx="6">(974.6 KB)</tspan>
+      <tspan class="lang-pct" dx="6">8.1%</tspan>
+      <tspan class="lang-size" dx="6">(950.2 KB)</tspan>
     </text>
     <circle cx="540" cy="106" r="4.5" fill="#00add8" />
     <text x="551" y="110">
@@ -106,7 +106,7 @@
     <text x="296" y="134">
       <tspan class="lang-name">JavaScript</tspan>
       <tspan class="lang-pct" dx="6">0.6%</tspan>
-      <tspan class="lang-size" dx="6">(73.0 KB)</tspan>
+      <tspan class="lang-size" dx="6">(70.5 KB)</tspan>
     </text>
     <circle cx="540" cy="130" r="4.5" fill="#663399" />
     <text x="551" y="134">
