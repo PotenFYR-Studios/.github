@@ -45,17 +45,17 @@
   <!-- Progress Bar Background & Segments -->
   <rect x="25" y="52" width="750" height="12" rx="6" fill="#24283b" />
   <g clip-path="url(#bar-clip)">
-    <rect x="25.00" y="52" width="283.05" height="12" fill="#3178c6"><title>TypeScript: 37.7%</title></rect>
-    <rect x="308.05" y="52" width="145.98" height="12" fill="#b07219"><title>Java: 19.5%</title></rect>
-    <rect x="454.04" y="52" width="137.83" height="12" fill="#dea584"><title>Rust: 18.4%</title></rect>
-    <rect x="591.86" y="52" width="88.71" height="12" fill="#89e051"><title>Shell: 11.8%</title></rect>
-    <rect x="680.57" y="52" width="55.61" height="12" fill="#e34c26"><title>HTML: 7.4%</title></rect>
-    <rect x="736.18" y="52" width="19.99" height="12" fill="#00add8"><title>Go: 2.7%</title></rect>
-    <rect x="756.17" y="52" width="5.62" height="12" fill="#012456"><title>PowerShell: 0.7%</title></rect>
-    <rect x="761.80" y="52" width="4.11" height="12" fill="#f1e05a"><title>JavaScript: 0.5%</title></rect>
-    <rect x="765.91" y="52" width="3.52" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
-    <rect x="769.42" y="52" width="3.00" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
-    <rect x="772.42" y="52" width="3.00" height="12" fill="#384d54"><title>Dockerfile: 0.4%</title></rect>
+    <rect x="25.00" y="52" width="281.31" height="12" fill="#3178c6"><title>TypeScript: 37.5%</title></rect>
+    <rect x="306.31" y="52" width="149.65" height="12" fill="#b07219"><title>Java: 20.0%</title></rect>
+    <rect x="455.96" y="52" width="136.98" height="12" fill="#dea584"><title>Rust: 18.3%</title></rect>
+    <rect x="592.94" y="52" width="88.21" height="12" fill="#89e051"><title>Shell: 11.8%</title></rect>
+    <rect x="681.15" y="52" width="55.27" height="12" fill="#e34c26"><title>HTML: 7.4%</title></rect>
+    <rect x="736.42" y="52" width="19.87" height="12" fill="#00add8"><title>Go: 2.6%</title></rect>
+    <rect x="756.29" y="52" width="5.59" height="12" fill="#012456"><title>PowerShell: 0.7%</title></rect>
+    <rect x="761.88" y="52" width="4.08" height="12" fill="#f1e05a"><title>JavaScript: 0.5%</title></rect>
+    <rect x="765.96" y="52" width="3.49" height="12" fill="#663399"><title>CSS: 0.5%</title></rect>
+    <rect x="769.46" y="52" width="3.00" height="12" fill="#3572a5"><title>Python: 0.4%</title></rect>
+    <rect x="772.46" y="52" width="3.00" height="12" fill="#384d54"><title>Dockerfile: 0.3%</title></rect>
   </g>
 
   <!-- Legend -->
@@ -63,19 +63,19 @@
     <circle cx="30" cy="82" r="4.5" fill="#3178c6" />
     <text x="41" y="86">
       <tspan class="lang-name">TypeScript</tspan>
-      <tspan class="lang-pct" dx="6">37.7%</tspan>
+      <tspan class="lang-pct" dx="6">37.5%</tspan>
       <tspan class="lang-size" dx="6">(4.7 MB)</tspan>
     </text>
     <circle cx="285" cy="82" r="4.5" fill="#b07219" />
     <text x="296" y="86">
       <tspan class="lang-name">Java</tspan>
-      <tspan class="lang-pct" dx="6">19.5%</tspan>
-      <tspan class="lang-size" dx="6">(2.4 MB)</tspan>
+      <tspan class="lang-pct" dx="6">20.0%</tspan>
+      <tspan class="lang-size" dx="6">(2.5 MB)</tspan>
     </text>
     <circle cx="540" cy="82" r="4.5" fill="#dea584" />
     <text x="551" y="86">
       <tspan class="lang-name">Rust</tspan>
-      <tspan class="lang-pct" dx="6">18.4%</tspan>
+      <tspan class="lang-pct" dx="6">18.3%</tspan>
       <tspan class="lang-size" dx="6">(2.3 MB)</tspan>
     </text>
     <circle cx="30" cy="106" r="4.5" fill="#89e051" />
@@ -93,7 +93,7 @@
     <circle cx="540" cy="106" r="4.5" fill="#00add8" />
     <text x="551" y="110">
       <tspan class="lang-name">Go</tspan>
-      <tspan class="lang-pct" dx="6">2.7%</tspan>
+      <tspan class="lang-pct" dx="6">2.6%</tspan>
       <tspan class="lang-size" dx="6">(342.7 KB)</tspan>
     </text>
     <circle cx="30" cy="130" r="4.5" fill="#012456" />
@@ -123,7 +123,7 @@
     <circle cx="285" cy="154" r="4.5" fill="#384d54" />
     <text x="296" y="158">
       <tspan class="lang-name">Dockerfile</tspan>
-      <tspan class="lang-pct" dx="6">0.4%</tspan>
+      <tspan class="lang-pct" dx="6">0.3%</tspan>
       <tspan class="lang-size" dx="6">(45.0 KB)</tspan>
     </text>
   </g>
